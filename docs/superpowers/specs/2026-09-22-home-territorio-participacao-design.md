@@ -33,7 +33,7 @@ Fazer a homepage apresentar o Bahia do Sul como protagonista, deixar a defesa do
 - A seleção por mapa e por lista continua sincronizada. Navegação por teclado, controles explícitos, pausa, movimento reduzido e adaptação mobile fazem parte do componente.
 - Fotografias só serão associadas após conferência de que retratam o município indicado e de que a licença permite o uso pretendido. A origem pode ser um repositório público com licença clara ou uma fonte municipal.
 - Se não houver fotografia verificável, o componente mostra um estado neutro “Imagem em seleção”; não usa a foto de outra cidade nem uma ilustração como se fosse registro local.
-- As 171 correspondências atuais do cadastro seguem identificadas conforme sua validação. As duas entradas pendentes podem aparecer como registros da lista em revisão, nunca como municípios confirmados.
+- O catálogo territorial atual contém 169 registros confirmados e 4 registros em revisão: Água Quente, Jaguaquara (correção ainda pendente), Livramento do Brumado e Malhada de Pedras (correção ainda pendente). Os quatro podem aparecer como registros da lista em revisão, nunca como municípios confirmados.
 
 ### 4. Abaixo-assinado
 
@@ -83,4 +83,4 @@ Fazer a homepage apresentar o Bahia do Sul como protagonista, deixar a defesa do
 4. A homepage oferece o mapa e o carrossel municipal conforme a composição B.
 5. Selecionar um município abre sua fotografia conferida e seus créditos; sem foto, a interface declara a ausência.
 6. O abaixo-assinado indica corretamente quando está habilitado, preserva privacidade e nunca anuncia sucesso antes da confirmação por e-mail.
-7. Os dois registros pendentes não são publicados como municípios confirmados.
+7. Os quatro registros pendentes não são publicados como municípios confirmados.

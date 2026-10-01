@@ -1,0 +1,233 @@
+{
+  "regions": [
+    {
+      "id": "header",
+      "kind": "chrome",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.09375
+      },
+      "note": "White navigation strip"
+    },
+    {
+      "id": "brand",
+      "kind": "image",
+      "box": {
+        "x": 0.08463541666666667,
+        "y": 0.00390625,
+        "w": 0.18229166666666666,
+        "h": 0.083984375
+      },
+      "note": "Existing brand mark; original user-provided logo is authoritative",
+      "plate": "public/images/logo-bahia-do-sul-v2.png",
+      "bleed": true
+    },
+    {
+      "id": "navigation",
+      "kind": "control",
+      "box": {
+        "x": 0.3971354166666667,
+        "y": 0.0234375,
+        "w": 0.5208333333333334,
+        "h": 0.048828125
+      },
+      "note": "Four navigation links and search icon"
+    },
+    {
+      "id": "coast",
+      "kind": "image",
+      "box": {
+        "x": 0,
+        "y": 0.09375,
+        "w": 1,
+        "h": 0.39453125
+      },
+      "note": "Full-bleed coastal landscape behind headline; cacao at right",
+      "plate": "public/images/jornada-coast.png",
+      "bleed": true
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "box": {
+        "x": 0.059895833333333336,
+        "y": 0.1494140625,
+        "w": 0.22786458333333334,
+        "h": 0.1962890625
+      },
+      "note": "Two-line editorial heading: Bahia do Sul"
+    },
+    {
+      "id": "tagline",
+      "kind": "text",
+      "box": {
+        "x": 0.06315104166666667,
+        "y": 0.353515625,
+        "w": 0.3209635416666667,
+        "h": 0.029296875
+      },
+      "note": "Nossa terra. Mais futuro."
+    },
+    {
+      "id": "project-action",
+      "kind": "control",
+      "box": {
+        "x": 0.064453125,
+        "y": 0.3974609375,
+        "w": 0.17643229166666666,
+        "h": 0.05859375
+      },
+      "note": "Green project button"
+    },
+    {
+      "id": "map-action",
+      "kind": "control",
+      "box": {
+        "x": 0.2565104166666667,
+        "y": 0.3994140625,
+        "w": 0.16471354166666666,
+        "h": 0.0556640625
+      },
+      "note": "Outlined map button"
+    },
+    {
+      "id": "chapter-nav",
+      "kind": "control",
+      "box": {
+        "x": 0,
+        "y": 0.48828125,
+        "w": 1,
+        "h": 0.060546875
+      },
+      "note": "Three chapter links with meaningful reading order"
+    },
+    {
+      "id": "candidate-background",
+      "container": true,
+      "kind": "chrome",
+      "box": {
+        "x": 0,
+        "y": 0.548828125,
+        "w": 1,
+        "h": 0.29296875
+      },
+      "note": "Navy candidate band"
+    },
+    {
+      "id": "candidate-title",
+      "kind": "text",
+      "box": {
+        "x": 0.06380208333333333,
+        "y": 0.57421875,
+        "w": 0.2532552083333333,
+        "h": 0.138671875
+      },
+      "note": "Two-line Professor Guilherme heading"
+    },
+    {
+      "id": "candidate-intro",
+      "kind": "text",
+      "box": {
+        "x": 0.06380208333333333,
+        "y": 0.72265625,
+        "w": 0.33203125,
+        "h": 0.03125
+      },
+      "note": "Conheça sua relação com o projeto."
+    },
+    {
+      "id": "candidate-action",
+      "kind": "control",
+      "box": {
+        "x": 0.06380208333333333,
+        "y": 0.7705078125,
+        "w": 0.18033854166666666,
+        "h": 0.05078125
+      },
+      "note": "Green conhecer button"
+    },
+    {
+      "id": "instagram-action",
+      "kind": "control",
+      "box": {
+        "x": 0.2604166666666667,
+        "y": 0.7705078125,
+        "w": 0.1953125,
+        "h": 0.05078125
+      },
+      "note": "Outlined Instagram button"
+    },
+    {
+      "id": "portrait",
+      "kind": "image",
+      "box": {
+        "x": 0.5143229166666666,
+        "y": 0.556640625,
+        "w": 0.3059895833333333,
+        "h": 0.28515625
+      },
+      "note": "Portrait of Professor Guilherme; preserve authentic source, not AI reinterpretation",
+      "plate": "public/images/professor-guilherme-source.png",
+      "bleed": true
+    },
+    {
+      "id": "candidate-motto",
+      "kind": "text",
+      "box": {
+        "x": 0.8040364583333334,
+        "y": 0.63671875,
+        "w": 0.15104166666666666,
+        "h": 0.076171875
+      },
+      "note": "Nossa terra. Mais futuro."
+    },
+    {
+      "id": "intro-ground",
+      "kind": "chrome",
+      "box": {
+        "x": 0,
+        "y": 0.8427734375,
+        "w": 1,
+        "h": 0.1572265625
+      },
+      "note": "Warm white beginning of project section"
+    },
+    {
+      "id": "intro-title",
+      "kind": "text",
+      "box": {
+        "x": 0.06380208333333333,
+        "y": 0.916015625,
+        "w": 0.2916666666666667,
+        "h": 0.0537109375
+      },
+      "note": "Entenda o projeto"
+    },
+    {
+      "id": "intro-description",
+      "kind": "text",
+      "box": {
+        "x": 0.06380208333333333,
+        "y": 0.978515625,
+        "w": 0.380859375,
+        "h": 0.021484375
+      },
+      "note": "Short introduction continued below fold"
+    },
+    {
+      "id": "intro-coast",
+      "kind": "image",
+      "box": {
+        "x": 0.4739583333333333,
+        "y": 0.8671875,
+        "w": 0.470703125,
+        "h": 0.1328125
+      },
+      "note": "Landscape continues into next section",
+      "plate": "public/images/jornada-coast.png",
+      "bleed": true
+    }
+  ]
+}

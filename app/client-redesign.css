@@ -1,0 +1,216 @@
+/* Visual system based on the client's green/lime/teal participation reference. */
+.bs-home {
+  --bs-green: #1d8a55;
+  --bs-deep-green: #07545c;
+  --bs-yellow: #c4e43b;
+  --bs-blue: #087eaa;
+  --bs-paper: #fbfcf7;
+  --bs-soft: #eef5df;
+  --bs-ink: #102b43;
+  --bs-muted: #4a6267;
+  --bs-line: #d6e0d8;
+  background: #00545b;
+  color: var(--bs-ink);
+}
+
+.bs-header {
+  position: sticky;
+  top: 0;
+  height: 76px;
+  min-height: 76px;
+  margin-bottom: 0;
+  padding-inline: clamp(20px, 5vw, 84px);
+  background: #fff;
+  box-shadow: 0 1px 0 #dbe4dd;
+}
+.bs-header.is-scrolled { background: #fff; box-shadow: 0 5px 20px #082f351c; }
+.bs-header .brand-horizontal { flex-basis: 225px; color: #102b43; }
+.bs-header .brand-leaf { fill: #1d8a55; }
+.bs-header .brand-wave { stroke: #087eaa; }
+.bs-desktop-nav { gap: clamp(13px, 2vw, 31px); }
+.bs-desktop-nav a { color: #102b43; font-size: 13px; }
+.bs-desktop-nav a:hover { color: #087e69; }
+.bs-header-cta { min-width: 135px; border-radius: 999px; background: #b7dc35; color: #112e34!important; }
+.bs-search { color: #102b43; }
+
+.bs-hero {
+  min-height: clamp(520px, 52vw, 680px);
+  align-items: stretch;
+  background: #073d42;
+}
+.bs-hero-image { object-position: center 48%; }
+.bs-hero-shade {
+  background: linear-gradient(90deg, rgb(4 37 43 / 88%) 0%, rgb(4 37 43 / 72%) 34%, rgb(4 37 43 / 24%) 63%, rgb(4 37 43 / 5%) 100%), linear-gradient(0deg, rgb(4 37 43 / 50%), transparent 36%);
+}
+.bs-hero-content {
+  width: min(1440px, 100%);
+  padding: clamp(78px, 9vw, 128px) clamp(24px, 7vw, 112px) 72px;
+  justify-content: center;
+}
+.bs-hero h1 {
+  display: grid;
+  max-width: 11ch;
+  color: #fff;
+  font-size: clamp(48px, 6.4vw, 88px);
+  line-height: .99;
+  letter-spacing: -.04em;
+}
+.bs-hero h1 span:first-child { color: #bde23b; }
+.bs-hero-lead { max-width: 31ch; margin-top: 22px!important; font-size: clamp(18px, 1.6vw, 22px); }
+.bs-hero-actions { gap: 24px; margin-top: 32px; }
+.bs-button-yellow { min-height: 54px; padding-inline: 25px; border-radius: 999px; background: #bde23b; color: #102b43!important; font-size: 15px; }
+.bs-button-yellow:hover { background: #d0ef54; }
+.bs-hero-secondary { text-decoration: underline; text-underline-offset: 5px; }
+.bs-hero-trust { margin-top: 22px!important; color: #f3f8f0; font-size: 13px; }
+.bs-hero-trust span { padding-inline: 7px; color: #bde23b; }
+
+.bs-editorial-grid {
+  grid-template-columns: 1fr 1.08fr 1fr 1.14fr;
+  gap: 0;
+  padding: 24px clamp(20px, 5vw, 80px);
+  background: #fff;
+}
+.bs-editorial-grid>article,.bs-founder-panel {
+  min-height: 256px;
+  padding: 20px clamp(16px, 2vw, 30px);
+  border-radius: 0;
+}
+.bs-editorial-grid>article+article,.bs-founder-panel { border-left: 1px solid #dce5dd; }
+.bs-editorial-grid h2 { color: #102b43; font-size: clamp(18px, 1.6vw, 23px); }
+.bs-editorial-grid article>p,.bs-founder-panel>p { color: #41595d; font-size: 14px; }
+.bs-editorial-story,.bs-editorial-data,.bs-editorial-benefits { background: #fff; }
+.bs-editorial-benefits { background: #f4f8e9; }
+.bs-count strong { color: #168450; }
+.bs-founder-panel {
+  background: #07545c;
+  color: #fff;
+}
+.bs-founder-panel h2,.bs-founder-panel>p,.bs-founder-panel small { color: #fff; }
+.bs-founder-panel .bs-button { width: fit-content; min-width: 100%; }
+.bs-text-link { color: #00677b!important; }
+
+.bs-cities,.bs-news { background: #fff; }
+.bs-cities .city-photo-rail figure { border-radius: 12px; }
+.bs-map-section { background: #edf5e7; }
+.bs-map-preview { background: #073d42; }
+.bs-cacao { background: #f6f8ee; }
+.bs-mascots { background: #fff; }
+.bs-process { background: #07545c; }
+.bs-footer { background: #073d42; }
+.bs-mobile-cta { background: #bde23b; color: #102b43!important; border-color: #a8ce2d; }
+
+.signature-portal { --signature-ink: #102b43; --signature-muted: #4b6268; --signature-teal: #07545c; --signature-lime: #bde23b; }
+.signature-portal .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  min-height: 76px;
+  padding: 8px clamp(20px, 5vw, 84px);
+  background: #fff;
+  border-bottom: 1px solid #dbe4dd;
+}
+.signature-portal .site-header .brand-v1 { color: var(--signature-ink); }
+.signature-portal .site-header .brand-horizontal img { width: 180px; height: 54px; }
+.signature-portal .site-nav a { color: var(--signature-ink); }
+.signature-portal .site-search,.signature-portal .site-menu-toggle { color: var(--signature-ink); }
+.signature-portal #conteudo.portal-main { width: 100%; max-width: none; min-height: 0; margin: 0; padding: 0; }
+.signature-stage {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: clamp(42px, 7vw, 92px) clamp(20px, 5vw, 76px) 28px;
+  color: #fff;
+  background: linear-gradient(125deg, #27bf6a 0 24%, #09a99a 24% 49%, #07545c 49% 76%, #257cdb 76% 100%);
+}
+.signature-stage::before,.signature-stage::after { position: absolute; z-index: -1; content: ''; pointer-events: none; }
+.signature-stage::before { width: min(52vw, 700px); aspect-ratio: 1.8; top: -27%; right: -7%; border-radius: 50%; background: #ffd32f; transform: rotate(-27deg); }
+.signature-stage::after { width: 58vw; height: 1px; left: -7%; bottom: 17%; background: #ffffff8c; transform: rotate(-21deg); box-shadow: 0 12px #ffffff55,0 24px #ffffff35; }
+.signature-shell { position: relative; display: grid; grid-template-columns: minmax(260px,.76fr) minmax(440px,1.24fr); gap: clamp(32px,6vw,92px); align-items: center; width: min(1220px,100%); margin: auto; }
+.signature-intro { padding: 20px 0; }
+.signature-kicker,.signature-card-kicker { margin: 0 0 18px!important; color: #e8f6d4!important; font: 750 12px/1.35 'Montserrat',sans-serif!important; letter-spacing: .13em; }
+.signature-kicker span { color: #ffe064; padding-inline: 5px; }
+.signature-intro h1 { max-width: 11ch; margin: 0 0 20px!important; color: #fff; font: 800 clamp(40px,5vw,65px)/1.02 'Montserrat',sans-serif; letter-spacing: -.04em; }
+.signature-intro>p:not(.signature-kicker) { max-width: 43ch; margin: 0 0 20px!important; color: #f4fbf4; font-size: 17px; line-height: 1.65; }
+.signature-promises { display: grid; gap: 10px; margin: 25px 0; padding: 0; list-style: none; }
+.signature-promises li { display: flex; align-items: center; gap: 11px; color: #fff; font-size: 14px; }
+.signature-promises li::before { width: 8px; height: 8px; flex: 0 0 8px; border-radius: 50%; background: #c8e83b; content: ''; }
+.portal .signature-intro .signature-manifest-link { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; color: #fff; font-weight: 700; text-decoration-color: #d1eb70; }
+.signature-card { min-width: 0; padding: clamp(24px,4vw,48px); border-radius: 18px; background: #fffefa; color: var(--signature-ink); box-shadow: 0 28px 70px #06383c42; }
+.signature-card .signature-card-kicker { margin-bottom: 9px!important; color: #08735f!important; font-size: 11px!important; }
+.signature-card h2 { margin: 0 0 12px!important; color: var(--signature-ink); font: 800 clamp(25px,3vw,36px)/1.13 'Montserrat',sans-serif; letter-spacing: -.025em; }
+.signature-card .signature-form-lead { margin: 0 0 22px!important; color: var(--signature-muted); font-size: 14px; line-height: 1.65; }
+.signature-card .portal-form { gap: 14px; }
+.signature-card .portal-form fieldset { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+.signature-card .portal-form legend,.signature-card .portal-form .notice,.signature-card .portal-form .field-help,.signature-card .portal-form .honey,.signature-card .portal-form .check-field,.signature-card .portal-form [aria-label="Verificação de segurança"],.signature-card .portal-form .button-primary { grid-column: 1/-1; }
+.signature-card .portal-form legend { margin-bottom: 0; color: var(--signature-ink); font: 700 18px/1.2 'Montserrat',sans-serif; }
+.signature-card .portal-form label { align-content: start; color: #203e4e; font-size: 13px; }
+.signature-card .portal-form label:has(#petition-municipality) { grid-column: 1/-1; }
+.signature-portal .signature-card :is(input:not([type=checkbox]),select,textarea) { border-color: #c4d0c8; border-radius: 9px; background: #fff; color: #102b43; }
+.signature-portal .signature-card :is(input:not([type=checkbox]),select):focus-visible { border-color: #087e69; outline-color: #087e69; }
+.signature-portal .signature-card .check-field { gap: 11px; color: #344e56; font-size: 13px; }
+.signature-card .check-field input { accent-color: #168450; }
+.signature-portal .signature-card .check-field a { color: #00677b!important; font-weight: 700; }
+.signature-card .button-primary { min-height: 54px; border-radius: 999px; background: #f2c92d; color: #102b43!important; font: 800 15px 'Montserrat',sans-serif; }
+.signature-card .button-primary:hover { background: #ffda4f; }
+.signature-portal .signature-card button:disabled { opacity: .68; }
+.signature-card .notice { padding: 17px; border-radius: 9px; background: #f2f6e7; color: #28484d; }
+.signature-card .notice h2 { margin: 0 0 8px!important; color: #174d3c; font-size: 17px; }
+.signature-card .notice p { margin-bottom: 8px!important; color: #3c5859; font-size: 13px; line-height: 1.55; }
+.signature-card .notice p:last-child { margin-bottom: 0!important; }
+.signature-card .success-panel { padding: 20px; border-radius: 10px; background: #eff6e4; }
+.signature-card .signature-privacy-link { margin: 14px 0 0!important; font-size: 12px; }
+.signature-portal .signature-card .signature-privacy-link a { color: #00677b!important; }
+.signature-legal-note { width: min(1220px,100%); margin: 25px auto 0!important; padding-top: 17px; border-top: 1px solid #ffffff61; color: #f0f9ee!important; font-size: 12px!important; line-height: 1.6!important; text-align: center; }
+.signature-portal .portal-footer { background: #073d42; }
+
+@media(max-width:900px) {
+  .bs-header { padding-inline: 24px; }
+  .bs-header .brand-horizontal { flex-basis: 190px; }
+  .bs-editorial-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .bs-editorial-grid>article:nth-child(3) { border-left: 0; }
+  .bs-founder-panel { border-left: 1px solid #dce5dd; }
+  .signature-shell { grid-template-columns: minmax(210px,.68fr) minmax(360px,1.32fr); gap: 30px; }
+}
+@media(max-width:760px) {
+  .bs-header { min-height: 68px; padding-inline: 16px; }
+  .bs-header .brand-horizontal { flex-basis: 174px; }
+  .bs-hero { min-height: min(760px,calc(100svh - 68px)); }
+  .bs-hero-image { object-position: 72% 52%; }
+  .bs-hero-shade { background: linear-gradient(180deg,rgb(4 37 43 / 90%) 0%,rgb(4 37 43 / 82%) 43%,rgb(4 37 43 / 20%) 100%); }
+  .bs-hero-content { padding: 54px 22px 260px; }
+  .bs-hero h1 { font-size: clamp(38px,10vw,58px); }
+  .bs-hero-trust { max-width: 34ch; }
+  .bs-editorial-grid { grid-template-columns: 1fr; padding: 16px; }
+  .bs-editorial-grid>article,.bs-founder-panel { min-height: 0; padding: 22px 8px; border-left: 0!important; border-bottom: 1px solid #dce5dd; }
+  .bs-founder-panel { margin-top: 8px; padding: 23px; border: 0!important; border-radius: 12px; }
+  .bs-founder-panel .bs-button { width: 100%; }
+  .signature-portal .site-header { min-height: 68px; padding-inline: 16px; }
+  .signature-portal .site-header .brand-horizontal img { width: 150px; height: 50px; }
+  .signature-stage { padding: 32px 16px 24px; background: linear-gradient(150deg,#27bf6a 0 20%,#09a99a 20% 44%,#07545c 44% 78%,#257cdb 78% 100%); }
+  .signature-stage::before { width: 80vw; top: -6%; right: -45%; }
+  .signature-shell { grid-template-columns: 1fr; gap: 20px; }
+  .signature-intro { padding: 12px 5px 0; }
+  .signature-intro h1 { max-width: 14ch; font-size: clamp(38px,10vw,54px); }
+  .signature-intro>p:not(.signature-kicker) { font-size: 15px; }
+  .signature-promises { gap: 8px; margin: 18px 0 12px; }
+  .signature-promises li { font-size: 13px; }
+  .signature-card { padding: 23px 18px; border-radius: 14px; }
+  .signature-card .portal-form fieldset { grid-template-columns: 1fr; gap: 14px; }
+  .signature-card .portal-form legend,.signature-card .portal-form .notice,.signature-card .portal-form .field-help,.signature-card .portal-form .honey,.signature-card .portal-form .check-field,.signature-card .portal-form [aria-label="Verificação de segurança"],.signature-card .portal-form .button-primary { grid-column: auto; }
+  .signature-card .portal-form .notice,.signature-card .portal-form .check-field,.signature-card .portal-form .button-primary { grid-column: 1; }
+  .signature-legal-note { margin-top: 19px!important; text-align: left; }
+}
+.signature-portal .site-header .site-menu-toggle { display: inline-flex!important; }
+.signature-portal .site-header .site-nav { display: none!important; }
+.signature-portal .site-header .site-nav.is-open { display: grid!important; grid-template-columns: repeat(3,minmax(0,1fr)); position: absolute; top: 100%; left: 4%; right: 4%; width: auto; max-height: 75vh; overflow: auto; padding: 16px; background: #fff; border: 1px solid #d6e0d8; box-shadow: 0 14px 24px #0529571a; gap: 6px 12px; z-index: 100; }
+.signature-portal .site-header .site-nav a { display: flex; align-items: center; min-height: 44px; padding: 8px; font-size: 13px; }
+.signature-portal .site-header .site-nav .site-mobile-search { display: flex!important; }
+@media(max-width:380px) {
+  .bs-header { padding-inline: 10px; }
+  .bs-header .brand-horizontal { flex-basis: 150px; }
+  .bs-header-cta { min-width: 0; padding-inline: 13px; }
+  .signature-card { padding: 20px 15px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .bs-home *, .signature-portal * { scroll-behavior: auto!important; transition: none!important; animation-duration: .01ms!important; animation-iteration-count: 1!important; }
+}

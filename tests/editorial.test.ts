@@ -1,0 +1,42 @@
+delete process.env.DATABASE_URL;
+delete process.env.VERCEL;
+import {test,after} from 'node:test';
+import assert from 'node:assert/strict';
+import {mkdtempSync} from 'node:fs';
+import {tmpdir} from 'node:os';
+import {join} from 'node:path';
+import {randomBytes} from 'node:crypto';
+import {db} from '../lib/store';
+import {saveContent,publishedNews,participationSummary,contentSchema} from '../lib/editorial';
+import {prepareParticipation,confirmParticipation} from '../lib/participation';
+process.env.DATABASE_PATH=join(mkdtempSync(join(tmpdir(),'bahia-editorial-')),'test.sqlite');
+process.env.DATA_ENCRYPTION_KEY=randomBytes(32).toString('hex');
+after(async()=>{await db().close()});
+test('notícia percorre rascunho, publicação, atualização e retirada sem duplicar',async()=>{
+ const input={kind:'noticias',title:'Publicação de teste local',body:'Texto de teste suficiente para validar o fluxo editorial.',source:'https://example.invalid/origem',published:false};
+ const id=await saveContent(input);
+ assert.equal((await publishedNews()).length,0);
+ await saveContent({...input,id,published:true});
+ assert.equal((await publishedNews(id))[0].title,input.title);
+ await saveContent({...input,id,title:'Título atualizado no teste',published:true});
+ assert.equal((await publishedNews()).length,1);
+ assert.equal((await publishedNews(id))[0].title,'Título atualizado no teste');
+ await saveContent({...input,id,published:false});
+ assert.equal((await publishedNews(id)).length,0);
+ assert.equal((await db().prepare('SELECT COUNT(*) AS n FROM audit').get())!.n,4);
+});
+test('editorial recusa ID inexistente, fonte insegura e conteúdo incompleto',async()=>{
+ const input={kind:'noticias',title:'Título de teste',body:'Texto de teste com tamanho válido.',source:'https://example.invalid',published:false};
+ assert.equal(contentSchema.safeParse({...input,source:'javascript:alert(1)'}).success,false);
+ assert.equal(contentSchema.safeParse({...input,body:'curto'}).success,false);
+ await assert.rejects(saveContent({...input,id:crypto.randomUUID()}));
+ assert.deepEqual(await publishedNews('invalido'),[]);
+});
+test('resumo separa pendentes e verificadas e não retorna nomes ou e-mails',async()=>{
+ let summary=await participationSummary();assert.equal(summary.total,0);
+ const p=await prepareParticipation({name:'Teste local',email:'qa@example.invalid',municipality:'2913606',consent:true,newsletter:false,website:'',captcha:'test'});
+ summary=await participationSummary();assert.equal(summary.pending,1);assert.equal(summary.verified,0);assert.equal(summary.regions.length,0);
+ await confirmParticipation(p!.token);
+ summary=await participationSummary();assert.equal(summary.pending,0);assert.equal(summary.verified,1);assert.equal(summary.recent,1);assert.equal(summary.municipalities,1);assert.equal(summary.regions[0].total,1);
+ assert.doesNotMatch(JSON.stringify(summary),/qa@example|Teste local|email|name/);
+});

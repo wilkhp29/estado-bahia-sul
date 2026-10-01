@@ -1,0 +1,9 @@
+{
+  "source": "/images/professor-guilherme-instagram-original.jpg",
+  "sourceUrl": "https://www.instagram.com/prof.guilhermesantos/",
+  "createdAt": "2026-09-20",
+  "prompt": "Remove only the black background from the authentic 1080x1080 Instagram portrait; preserve face, smile, gray hair, navy blazer, light shirt, shoulders and pose exactly; transparent output.",
+  "tool": "Built-in ChatGPT image generation; WebP conversion",
+  "type": "AI-assisted background extraction; original JPEG retained separately",
+  "usage": "Homepage Professor Guilherme banner"
+}

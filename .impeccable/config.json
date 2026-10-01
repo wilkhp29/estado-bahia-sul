@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "design-system-color",
+        "value": "#153e2d",
+        "files": [
+          "app/homepage.css"
+        ],
+        "createdAt": "2026-09-30T11:50:28.323Z",
+        "reason": "Scoped homepage text colors"
+      }
+    ]
+  }
+}

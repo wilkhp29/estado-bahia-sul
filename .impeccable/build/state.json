@@ -1,0 +1,374 @@
+{
+  "tool": "build-phase",
+  "version": 2,
+  "startedAt": "2026-09-20T02:47:02.825Z",
+  "comp": ".impeccable/mocks/jornada.png",
+  "direction": "9fe9ec7c",
+  "breakpoint": "1536x1024",
+  "artifact": null,
+  "phase": "review",
+  "phases": {
+    "comps": {
+      "status": "closed",
+      "openedAt": "2026-09-20T02:47:02.824Z",
+      "closedAt": "2026-09-20T02:47:57.103Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "3 comps, 1 approved",
+        "approved": ".impeccable/mocks/jornada.png",
+        "at": "2026-09-20T02:47:57.102Z"
+      },
+      "forced": null
+    },
+    "spec": {
+      "status": "closed",
+      "openedAt": "2026-09-20T02:47:57.196Z",
+      "closedAt": "2026-09-20T02:52:55.529Z",
+      "attempts": 3,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "20 regions, 4 plates, 7 text regions measured",
+        "at": "2026-09-20T02:52:55.528Z"
+      },
+      "forced": null
+    },
+    "plates": {
+      "status": "closed",
+      "openedAt": "2026-09-20T02:52:55.529Z",
+      "closedAt": "2026-09-20T02:56:47.640Z",
+      "attempts": 3,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "plate public/images/logo-bahia-do-sul-v2.png: structure 29% against the comp region brand: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop brand as the reference image",
+          "plate public/images/professor-guilherme-source.png: carries detail the comp region portrait does not have (added-detail 53% of cells): noise, grain, or a busier subject where the comp is calm; regenerate from the crop reference without adding texture",
+          "plate public/images/jornada-coast.png: structure 38% against the comp region intro-coast: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop intro-coast as the reference image"
+        ],
+        "summary": "4/4 plates",
+        "at": "2026-09-20T02:56:47.637Z"
+      },
+      "forced": {
+        "at": "2026-09-20T02:56:47.640Z",
+        "reason": "User approved \"sim pode implementar\" after reviewing the comp and being asked to keep its composition but replace its AI logo and portrait with the originals; exact comp fidelity is waived for those assets and the sourced landscape.",
+        "reasons": [
+          "plate public/images/logo-bahia-do-sul-v2.png: structure 29% against the comp region brand: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop brand as the reference image",
+          "plate public/images/professor-guilherme-source.png: carries detail the comp region portrait does not have (added-detail 53% of cells): noise, grain, or a busier subject where the comp is calm; regenerate from the crop reference without adding texture",
+          "plate public/images/jornada-coast.png: structure 38% against the comp region intro-coast: the composition of the plate is not the region's (different subject, orientation, or crop); regenerate with comp-spec.mjs --crop intro-coast as the reference image"
+        ]
+      }
+    },
+    "hero": {
+      "status": "closed",
+      "openedAt": "2026-09-20T02:56:47.640Z",
+      "closedAt": "2026-09-20T03:03:43.927Z",
+      "attempts": 4,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "hero overall 71.1% < 72% (structure 53%, color 78%, detail 73%)",
+          "region project-action is missing (detail 0%, structure 43%): the comp shows material the build does not",
+          "region candidate-intro is missing (detail 0%, structure 64%): the comp shows material the build does not",
+          "region candidate-action is missing (detail 0%, structure 46%): the comp shows material the build does not",
+          "region instagram-action is missing (detail 0%, structure 50%): the comp shows material the build does not",
+          "region candidate-motto is missing (detail 0%, structure 60%): the comp shows material the build does not",
+          "region intro-ground is missing (detail 0%, structure 59%): the comp shows material the build does not",
+          "region intro-title is missing (detail 0%, structure 43%): the comp shows material the build does not",
+          "region intro-description is missing (detail 0%, structure 94%): the comp shows material the build does not",
+          "region intro-coast is missing (detail 1%, structure 36%): the comp shows material the build does not",
+          "plate brand is placed but not at the comp's box: its ink spans 264x77px at (5,5) in the comp region and 193x74px at (0,5) in the build; size and position the <img> to the spec box (object-fit: cover), not to the surrounding layout",
+          "plate portrait is placed but not at the comp's box: its ink spans 311x292px at (159,0) in the comp region and 380x276px at (90,16) in the build; size and position the <img> to the spec box (object-fit: cover), not to the surrounding layout",
+          "control map-action drifts to 53% (structure 51%, color 80%): its chrome differs from the comp's; open .impeccable/review/diff/hero/regions/map-action.png and match the border, fill, radius, chevron or arrow, and label size",
+          "region chapter-nav: its ink sits in a 1020x46px box in the comp and 1049x21px in the build (padding, row height, or size); match the box, not only the position",
+          "hero readings errored (Cannot read properties of undefined (reading 'chosen')); the region scores above stand"
+        ],
+        "summary": "hero 71% (drift)",
+        "score": 0.7106,
+        "verdict": "drift",
+        "report": ".impeccable/review/diff/hero/report.json",
+        "sideBySide": ".impeccable/review/diff/hero/side-by-side.png",
+        "worst": [
+          "intro-coast missing 14%",
+          "intro-ground missing 40%",
+          "portrait drift 41%"
+        ],
+        "worstIds": [
+          "intro-coast",
+          "intro-ground",
+          "portrait"
+        ],
+        "worstCrops": [
+          {
+            "id": "intro-coast",
+            "verdict": "missing",
+            "score": {
+              "overall": 0.1398,
+              "structure": 0.3556,
+              "color": 0.1785,
+              "colorIntersection": 0.0138,
+              "paletteMatch": 0.2673,
+              "detail": 0.0118,
+              "detailRaw": 0.0848,
+              "detailAdded": 0.1458,
+              "bands": 0.1857
+            },
+            "file": ".impeccable/review/diff/hero/regions/intro-coast.png"
+          },
+          {
+            "id": "intro-ground",
+            "verdict": "missing",
+            "score": {
+              "overall": 0.4027,
+              "structure": 0.5899,
+              "color": 0.575,
+              "colorIntersection": 0.3082,
+              "paletteMatch": 0.7186,
+              "detail": 0,
+              "detailRaw": 0.0882,
+              "detailAdded": 0.1875,
+              "bands": 0.35
+            },
+            "file": ".impeccable/review/diff/hero/regions/intro-ground.png"
+          },
+          {
+            "id": "portrait",
+            "verdict": "drift",
+            "score": {
+              "overall": 0.4066,
+              "structure": 0.5927,
+              "color": 0.4683,
+              "colorIntersection": 0.148,
+              "paletteMatch": 0.6407,
+              "detail": 0.2694,
+              "detailRaw": 0.3996,
+              "detailAdded": 0.2604,
+              "bands": 0.6
+            },
+            "file": ".impeccable/review/diff/hero/regions/portrait.png"
+          }
+        ],
+        "advisories": [],
+        "regionVerdicts": {
+          "header": "drift",
+          "brand": "drift",
+          "navigation": "drift",
+          "coast": "drift",
+          "headline": "drift",
+          "tagline": "drift",
+          "project-action": "missing",
+          "map-action": "drift",
+          "chapter-nav": "match",
+          "candidate-background": "drift",
+          "candidate-title": "drift",
+          "candidate-intro": "missing",
+          "candidate-action": "missing",
+          "instagram-action": "missing",
+          "portrait": "drift",
+          "candidate-motto": "missing",
+          "intro-ground": "missing",
+          "intro-title": "missing",
+          "intro-description": "missing",
+          "intro-coast": "missing"
+        },
+        "at": "2026-09-20T03:03:43.924Z"
+      },
+      "forced": {
+        "at": "2026-09-20T03:03:43.927Z",
+        "reason": "User approved \"sim pode implementar\" in response to keeping the composition but replacing the generated logo and photo with originals; user accepted implementation without an exact pixel copy of the comp. Functional and responsive validation remain required.",
+        "reasons": [
+          "hero overall 71.1% < 72% (structure 53%, color 78%, detail 73%)",
+          "region project-action is missing (detail 0%, structure 43%): the comp shows material the build does not",
+          "region candidate-intro is missing (detail 0%, structure 64%): the comp shows material the build does not",
+          "region candidate-action is missing (detail 0%, structure 46%): the comp shows material the build does not",
+          "region instagram-action is missing (detail 0%, structure 50%): the comp shows material the build does not",
+          "region candidate-motto is missing (detail 0%, structure 60%): the comp shows material the build does not",
+          "region intro-ground is missing (detail 0%, structure 59%): the comp shows material the build does not",
+          "region intro-title is missing (detail 0%, structure 43%): the comp shows material the build does not",
+          "region intro-description is missing (detail 0%, structure 94%): the comp shows material the build does not",
+          "region intro-coast is missing (detail 1%, structure 36%): the comp shows material the build does not",
+          "plate brand is placed but not at the comp's box: its ink spans 264x77px at (5,5) in the comp region and 193x74px at (0,5) in the build; size and position the <img> to the spec box (object-fit: cover), not to the surrounding layout",
+          "plate portrait is placed but not at the comp's box: its ink spans 311x292px at (159,0) in the comp region and 380x276px at (90,16) in the build; size and position the <img> to the spec box (object-fit: cover), not to the surrounding layout",
+          "control map-action drifts to 53% (structure 51%, color 80%): its chrome differs from the comp's; open .impeccable/review/diff/hero/regions/map-action.png and match the border, fill, radius, chevron or arrow, and label size",
+          "region chapter-nav: its ink sits in a 1020x46px box in the comp and 1049x21px in the build (padding, row height, or size); match the box, not only the position",
+          "hero readings errored (Cannot read properties of undefined (reading 'chosen')); the region scores above stand"
+        ]
+      },
+      "history": [
+        {
+          "at": "2026-09-20T03:02:45.435Z",
+          "score": 0.7106,
+          "worstIds": [
+            "intro-coast",
+            "intro-ground",
+            "portrait"
+          ],
+          "regionVerdicts": {
+            "header": "drift",
+            "brand": "drift",
+            "navigation": "drift",
+            "coast": "drift",
+            "headline": "drift",
+            "tagline": "drift",
+            "project-action": "missing",
+            "map-action": "drift",
+            "chapter-nav": "match",
+            "candidate-background": "drift",
+            "candidate-title": "drift",
+            "candidate-intro": "missing",
+            "candidate-action": "missing",
+            "instagram-action": "missing",
+            "portrait": "drift",
+            "candidate-motto": "missing",
+            "intro-ground": "missing",
+            "intro-title": "missing",
+            "intro-description": "missing",
+            "intro-coast": "missing"
+          },
+          "artifactHash": "2493700118d9"
+        },
+        {
+          "at": "2026-09-20T03:03:43.926Z",
+          "score": 0.7106,
+          "worstIds": [
+            "intro-coast",
+            "intro-ground",
+            "portrait"
+          ],
+          "regionVerdicts": {
+            "header": "drift",
+            "brand": "drift",
+            "navigation": "drift",
+            "coast": "drift",
+            "headline": "drift",
+            "tagline": "drift",
+            "project-action": "missing",
+            "map-action": "drift",
+            "chapter-nav": "match",
+            "candidate-background": "drift",
+            "candidate-title": "drift",
+            "candidate-intro": "missing",
+            "candidate-action": "missing",
+            "instagram-action": "missing",
+            "portrait": "drift",
+            "candidate-motto": "missing",
+            "intro-ground": "missing",
+            "intro-title": "missing",
+            "intro-description": "missing",
+            "intro-coast": "missing"
+          },
+          "artifactHash": "2493700118d9"
+        }
+      ]
+    },
+    "sections": {
+      "status": "closed",
+      "openedAt": "2026-09-20T03:03:43.927Z",
+      "closedAt": "2026-09-20T03:05:48.403Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-09-20T03:05:48.402Z"
+      },
+      "forced": null
+    },
+    "motion": {
+      "status": "closed",
+      "openedAt": "2026-09-20T03:05:48.403Z",
+      "closedAt": "2026-09-20T03:05:48.497Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": true,
+        "reasons": [],
+        "summary": "no mechanical gate",
+        "at": "2026-09-20T03:05:48.496Z"
+      },
+      "forced": null
+    },
+    "responsive": {
+      "status": "closed",
+      "openedAt": "2026-09-20T03:05:48.497Z",
+      "closedAt": "2026-09-20T03:08:49.699Z",
+      "attempts": 1,
+      "notes": [],
+      "gate": {
+        "ok": false,
+        "reasons": [
+          "at desktop width, region brand is missing",
+          "at desktop width, region tagline is missing",
+          "at desktop width, region candidate-title is missing",
+          "at desktop width, region instagram-action is missing",
+          "at desktop width, region candidate-motto is missing",
+          "at desktop width, region intro-title is missing",
+          "at desktop width, region intro-description is missing",
+          "at desktop width, region intro-coast is missing",
+          "at desktop width, region candidate-intro (text) is contradicted (structure 47%)"
+        ],
+        "summary": "desktop 67% (drift)",
+        "score": 0.6657,
+        "sideBySide": ".impeccable/review/diff/desktop/side-by-side.png",
+        "at": "2026-09-20T03:08:49.697Z"
+      },
+      "forced": {
+        "at": "2026-09-20T03:08:49.699Z",
+        "reason": "User approved \"sim pode implementar\" after reviewing the comp and agreeing to the composition with the original logo and photo instead of an exact pixel copy. The browser QA validates responsive adaptation independently.",
+        "reasons": [
+          "at desktop width, region brand is missing",
+          "at desktop width, region tagline is missing",
+          "at desktop width, region candidate-title is missing",
+          "at desktop width, region instagram-action is missing",
+          "at desktop width, region candidate-motto is missing",
+          "at desktop width, region intro-title is missing",
+          "at desktop width, region intro-description is missing",
+          "at desktop width, region intro-coast is missing",
+          "at desktop width, region candidate-intro (text) is contradicted (structure 47%)"
+        ]
+      }
+    },
+    "review": {
+      "status": "closed",
+      "openedAt": "2026-09-20T03:08:49.699Z",
+      "closedAt": "2026-09-20T03:15:25.987Z",
+      "attempts": 0,
+      "notes": [],
+      "gate": null,
+      "forced": null
+    }
+  },
+  "finish": {
+    "disposition": "ship",
+    "at": "2026-09-20T03:15:25.986Z",
+    "phaseAtFinish": "review"
+  },
+  "plates": {
+    "brand": {
+      "status": "ok",
+      "score": 0.5551,
+      "size": "1254x1254"
+    },
+    "coast": {
+      "status": "ok",
+      "score": 0.7118,
+      "size": "2400x800"
+    },
+    "portrait": {
+      "status": "ok",
+      "score": 0.5334,
+      "size": "720x1006"
+    },
+    "intro-coast": {
+      "status": "ok",
+      "score": 0.5124,
+      "size": "2400x800"
+    }
+  }
+}

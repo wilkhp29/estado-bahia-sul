@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {geoArea} from 'd3-geo';
+const source=JSON.parse(fs.readFileSync('municipios.json'));
+const data=JSON.parse(fs.readFileSync('data/territory.json'));
+test('preserva todas as entradas da lista original',()=>{assert.equal(data.municipalities.length,source.municipalities.length);assert.deepEqual(data.municipalities.map(m=>m.name),source.municipalities.map(m=>m.name));});
+test('geometrias têm códigos únicos e cadastro correspondente',()=>{const codes=data.territory.features.map(f=>f.properties.id);assert.equal(new Set(codes).size,codes.length);assert.ok(codes.every(c=>c.startsWith('29')));assert.ok(data.territory.features.every(f=>f.properties.matched));});
+test('divergências permanecem pendentes sem geometria inventada',()=>{for(const name of ['Água Quente','Livramento do Brumado']){const m=data.municipalities.find(m=>m.name===name);assert.equal(m.id,null);assert.equal(m.review,true);}for(const name of ['Jaguaquara','Malhada de Pedras'])assert.equal(data.municipalities.find(m=>m.name===name).review,true);});
+test('regiões são explicitamente provisórias',()=>{assert.match(data.regionStatus,/não é uma divisão regional oficial/);assert.equal(new Set(data.municipalities.filter(m=>m.matched).map(m=>m.region)).size,6);});
+test('orientação esférica desenha municípios, não seus complementos',()=>{for(const f of data.territory.features)assert.ok(geoArea(f)<1, f.properties.name);});

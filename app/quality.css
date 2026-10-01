@@ -1,0 +1,40 @@
+/* Shared reading layout: centered content, with room for the interactive map. */
+.portal #conteudo.portal-main { width: 100%; max-width: 1180px; margin: 0 auto; }
+.portal .portal-main > .reading { margin-inline: auto; }
+.portal .portal-main:has(.map-page) { max-width: 1440px; }
+.portal .reading.project-document { padding: 28px 0 48px; }
+.site-header .site-nav .site-mobile-search { display: none; }
+.quick-guide > section { padding: 28px 0; border-bottom: 1px solid var(--line); }
+.quick-guide > section:last-child { border-bottom: 0; }
+.portal .quick-guide h2 { margin-top: 0; }
+.quick-guide section a, .guide-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; min-height: 44px; }
+.quick-guide section a { font-weight: 500; }
+.portal-search form { margin: 28px 0 40px; }
+.portal-search label { display: block; margin-bottom: 10px; font-weight: 500; }
+.portal-search-field { display: flex; gap: 12px; }
+.portal-search-field button { flex-shrink: 0; }
+.portal-search-results { list-style: none; padding: 0; }
+.portal-search-results li { border-bottom: 1px solid var(--line); padding: 20px 0; }
+.portal-search-results li > a { display: inline-flex; align-items: center; min-height: 44px; font-size: 19px; font-weight: 500; }
+.portal-search-results li p { margin-bottom: 0; }
+.home-discover-link { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 0 5% 32px; }
+.home-discover-link p { color: var(--ink-muted); font-size: 16px; line-height: 1.7; }
+.home-discover-link a { display: inline-flex; gap: 12px; align-items: center; min-height: 44px; color: var(--brand-deep); text-decoration: underline; }
+.r-hero .hero-quick-link { display: inline-flex; align-items: center; min-height: 44px; margin-top: 12px; color: white; text-decoration: underline; text-underline-offset: 4px; font-size: 15px; }
+.story-profile-copy .candidate-identification { font-size: 15px; margin-bottom: 16px; }
+.candidate-identification a { color: var(--brand-deep); text-decoration: underline; text-underline-offset: 4px; display: inline-flex; align-items: center; min-height: 44px; }
+.story-candidate .candidate-follow { color: white; margin: 12px 0 0; }
+.map-page > .territory-highlights { padding-inline: 0; margin-top: 48px; }
+.portal-search input { scroll-margin-top: 20px; }
+@media (max-width: 1279px) { .site-header .site-nav .site-mobile-search { display: flex; } }
+@media (max-width: 760px) {
+  .replica .r-features { display: none; }
+  .replica .r-territory { padding-top: 28px; }
+  .home-discover-link { display: block; padding: 0 20px 24px; }
+  .home-discover-link a { margin-top: 12px; }
+  .portal .reading.project-document { padding: 8px 0 32px; }
+  .project-document-index { gap: 8px; }
+  .project-document-index a { min-height: 44px; }
+  .quick-guide > section { padding: 22px 0; }
+}
+@media (max-width: 380px) { .portal-search-field { flex-wrap: wrap; } .portal-search-field button { width: 100%; } }

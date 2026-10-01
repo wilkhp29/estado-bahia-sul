@@ -1,0 +1,9 @@
+{
+  "prompt": "Remove only white background from supplied authentic Professor Guilherme photograph; transparent cutout; preserve identity, age, expression, gray hair, green polo, proportions and pose. No new text or elements. Do not beautify or invent facial detail.",
+  "source": "/images/professor-guilherme-source.jpg",
+  "sourceUrl": "https://operamundi.uol.com.br/eleicoes-2026/candidatos/professor-guilherme-ba/",
+  "createdAt": "2026-09-20",
+  "tool": "Built-in ChatGPT image generation; WebP conversion",
+  "type": "AI-treated portrait; reconstructed texture, not an untouched photograph",
+  "authorization": "User explicitly requested generation from the available low-resolution portrait and number 1026. Original photograph retained separately."
+}

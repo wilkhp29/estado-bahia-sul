@@ -1,0 +1,18 @@
+# Local secrets, personal data and development artifacts must never be uploaded.
+.env*
+private/
+*.sqlite*
+.git/
+.next/
+.next-dev/
+node_modules/
+.impeccable/
+.superpowers/
+.agents/
+test-results/
+tests/
+scripts/
+docs/
+agents.md
+municipios.json
+*.tsbuildinfo

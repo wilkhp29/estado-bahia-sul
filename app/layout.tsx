@@ -1,0 +1,27 @@
+import type { Metadata } from 'next';
+import { indexingEnabled } from '../lib/site';
+import '@fontsource/montserrat/600.css';
+import '@fontsource/montserrat/700.css';
+import '@fontsource/montserrat/800.css';
+import '@fontsource/inter/400.css';
+import '@fontsource/inter/500.css';
+import '@fontsource/inter/600.css';
+import '@fontsource/inter/700.css';
+import './globals.css';
+import './photographic.css';
+import './territory-highlights.css';
+import './design-system.css';
+import './reference.css';
+import './usability.css';
+import './project-story.css';
+import './quality.css';
+import './jornada.css';
+import './basic-site.css';
+import './movisul.css';
+import './photography.css';
+import './homepage.css';
+import './client-redesign.css';
+import './portal-brand.css';
+import './map-selection-mobile.css';
+export const metadata:Metadata={metadataBase:new URL('https://estadobahiadosul.com.br'),title:{default:'Bahia do Sul | Conheça o território',template:'%s | Bahia do Sul'},description:'Conheça o projeto Bahia do Sul, explore o mapa e os municípios do território em estudo e consulte informações, fontes e referências institucionais.',robots:{index:indexingEnabled(),follow:true}};
+export default function Layout({children}:{children:React.ReactNode}){return <html lang="pt-BR"><body>{children}</body></html>}

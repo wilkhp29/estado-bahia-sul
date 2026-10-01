@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-30T12:00:00Z",
+  "title": "Design System: Bahia do Sul — verde-lima, teal e comunidade",
+  "extensions": {
+    "colorMeta": {
+      "forest": {"role":"primary","displayName":"Verde comunidade"},
+      "forest-deep": {"role":"primary","displayName":"Teal oceânico"},
+      "forest-page": {"role":"primary","displayName":"Teal profundo"},
+      "cacao-sun": {"role":"secondary","displayName":"Lima folha"},
+      "ocean": {"role":"secondary","displayName":"Azul costa"},
+      "paper": {"role":"neutral","displayName":"Branco quente"},
+      "sand": {"role":"neutral","displayName":"Papel claro"},
+      "soft-green": {"role":"neutral","displayName":"Verde suave"},
+      "ink": {"role":"neutral","displayName":"Azul-noturno"},
+      "muted": {"role":"neutral","displayName":"Texto secundário"},
+      "line": {"role":"neutral","displayName":"Divisória"},
+      "forest-heading": {"role":"primary","displayName":"Título verde profundo"},
+      "blue-link": {"role":"secondary","displayName":"Link azul"}
+    },
+    "typographyMeta": {
+      "display": {"displayName":"Títulos de impacto","purpose":"Montserrat ExtraBold para o hero e títulos principais."},
+      "heading": {"displayName":"Títulos de seção","purpose":"Montserrat Bold/ExtraBold com quebra equilibrada."},
+      "body": {"displayName":"Leitura","purpose":"Inter local para texto, navegação e controles."},
+      "navigation": {"displayName":"Navegação","purpose":"Montserrat Bold em tamanho compacto."},
+      "label": {"displayName":"Rótulos temáticos","purpose":"Montserrat ExtraBold, versalete espaçada."}
+    },
+    "shadows": [
+      {"name":"signature-panel","value":"0 28px 70px #06383c42","purpose":"Separar o formulário da composição cromática da página de participação."},
+      {"name":"mobile-cta","value":"0 -5px 16px #0d352220","purpose":"Separar a ação fixa do conteúdo em telas pequenas."}
+    ],
+    "motion": [
+      {"name":"button-hover","value":"transform .18s ease-out, background-color .18s ease-out","purpose":"Elevação sutil e curta da ação."},
+      {"name":"reduced-motion","value":"transition-duration: .01ms; animation-duration: .01ms; scroll-behavior: auto","purpose":"Honrar a preferência do sistema."}
+    ],
+    "breakpoints": [
+      {"name":"tablet-modules","value":"1100px"},
+      {"name":"mobile","value":"760px"},
+      {"name":"compact-mobile","value":"390px"}
+    ],
+    "focus": [
+      {"name":"homepage","value":"3px solid var(--bs-blue); outline-offset: 4px","purpose":"Links e controles focáveis da homepage."}
+    ],
+    "overlays": [
+      {"name":"hero","value":"linear-gradient(90deg, rgb(4 37 43 / 88%) 0%, rgb(4 37 43 / 72%) 34%, rgb(4 37 43 / 24%) 63%, rgb(4 37 43 / 5%) 100%)","purpose":"Contraste progressivo para texto HTML sobre fotografia panorâmica."}
+    ]
+  },
+  "narrative": {
+      "northStar":"O futuro começa daqui",
+      "overview":"Homepage contemporânea e jovem, inspirada na nova referência do cliente: header branco, hero fotográfico panorâmico com headline HTML à esquerda e comunidade à direita, CTA lima e módulos editoriais claros. A participação recebe formulário destacado sobre superfícies cromáticas verde, teal, amarelo e azul. Não há moldura de computador; mapa, fontes, conteúdo e estados reais são preservados. Imagens geradas mantêm procedência em metadados internos; fotografias documentais preservam crédito e licença.",
+      "keyCharacteristics":["Hero panorâmico fotográfico sem mockup de dispositivo.","Verde, lima e teal com amarelo para ações.","Participação em painel claro destacado sobre fundo cromático.","Mapa, fontes, conteúdo e estados reais preservados."],
+      "rules":[
+        {"name":"Território primeiro","body":"A homepage começa pelo território e apresenta participantes contemporâneos em contexto.","section":"layout"},
+        {"name":"Fato e posição distintos","body":"Dados, declaração do movimento, cenários e posições pessoais permanecem diferenciados.","section":"components"},
+        {"name":"Imagem sem rótulo promocional","body":"Não inserir rótulo público de geração na fotografia criada; preservar prompt nos sidecars e crédito/licença de fotografia de terceiros.","section":"components"}
+      ],
+      "dos":["Aplicar verde, lima, teal, amarelo e branco à homepage e participação.","Manter acessibilidade, foco, alvos de toque e redução de movimento.","Usar a marca vetorial com cacau, café e ondas."],
+      "donts":["Não inventar métricas ou garantias de benefícios.","Não publicar lista inicial municipal como lista oficial validada.","Não remover crédito/licença das fotografias documentais.","Não identificar publicamente ilustrações como geradas por IA."]
+  },
+  "components": [
+    {
+      "name":"CTA principal",
+      "kind":"button",
+      "refersTo":"button-primary",
+      "description":"Ação de alto contraste em amarelo com texto escuro.",
+      "html":"<a class=\"ds-primary\" href=\"#projeto\">Conheça o projeto <span aria-hidden=\"true\">→</span></a>",
+      "css":".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:47px;padding:12px 19px;border-radius:999px;background:#bde23b;color:#102b43;font:700 14px/1.1 Montserrat,sans-serif;text-decoration:none}.ds-primary:focus-visible{outline:3px solid #087eaa;outline-offset:4px}"
+    },
+    {
+      "name":"Módulo editorial",
+      "kind":"card",
+      "description":"Módulos claros alinhados em grade, organizados por divisórias e tonalidade.",
+      "html":"<article class=\"ds-editorial\"><p>O PROJETO</p><h2>Uma história que continua.</h2><a href=\"#historia\">Nossa história →</a></article>",
+      "css":".ds-editorial{padding:20px;background:#fff;color:#102b43}.ds-editorial h2{font:800 22px/1.14 Montserrat,sans-serif;color:#102b43}.ds-editorial a{color:#00677b;font-weight:700}"
+    },
+    {
+      "name":"Marca Bahia do Sul",
+      "kind":"nav",
+      "description":"Símbolo vetorial de folha/cacau/sol/ondas seguido por wordmark Montserrat.",
+      "html":"<a class=\"ds-brand\" href=\"/\"><svg viewBox=\"0 0 56 56\" aria-hidden=\"true\"><path d=\"M8 40c6-1 11-5 15-11 3-5 4-10 4-16 6 7 8 14 5 21-3 8-11 13-23 14Z\" fill=\"#1d8a55\"/><path d=\"M8 45c9-3 20-3 31 0m-27 5c9-2 18-2 27 0\" fill=\"none\" stroke=\"#087eaa\" stroke-width=\"2.6\"/></svg><strong>BAHIA DO SUL</strong></a>",
+      "css":".ds-brand{display:flex;align-items:center;gap:9px;color:#102b43}.ds-brand svg{width:56px;height:56px}.ds-brand strong{font:800 16px Montserrat,sans-serif;letter-spacing:.025em}"
+    }
+  ]
+}

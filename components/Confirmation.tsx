@@ -1,0 +1,9 @@
+'use client';
+import {postJson,requestMessage} from '../lib/client-request';
+import Link from 'next/link';
+import {useState} from 'react';
+export default function Confirmation({token}:{token:string}){const [busy,setBusy]=useState(false),[error,setError]=useState(''),[result,setResult]=useState<{certificate:string;manage:string}|null>(null);
+ async function confirm(){setBusy(true);setError('');try{const data=await postJson<{certificate:string;manage:string}>('/api/confirmacao',{token});setResult(data);history.replaceState(null,'','/participar/confirmar');}catch(e){setError(requestMessage(e));}finally{setBusy(false);}}
+ if(result)return <div className="success-panel"><h1>Participação confirmada.</h1><p>Seu apoio foi registrado. O certificado é simbólico, sem valor jurídico ou eleitoral.</p><a className="button-primary" href={`/certificado/${result.certificate}`}>Abrir meu certificado</a><h2>Guarde sua chave de gerenciamento</h2><p>Com esta chave você pode excluir sua participação. Não compartilhe: ela permite gerenciar seus dados.</p><code className="private-key">{result.manage}</code><a href={`/participar/gerenciar#${result.manage}`}>Gerenciar minha participação</a></div>;
+ return <><h1>Confirme sua escolha.</h1><p>Ao confirmar, seu apoio simbólico ao projeto Bahia do Sul será registrado. Apenas abrir este link não registra apoio.</p>{!/^[a-f0-9]{64}$/.test(token)&&<p className="notice" role="status">Este endereço está incompleto ou não contém um link válido. Abra o endereço completo recebido por e-mail. Quando a coleta estiver aberta, você poderá solicitar um novo link pelo formulário.</p>}<button className="button-primary" aria-busy={busy} onClick={confirm} disabled={busy||!/^[a-f0-9]{64}$/.test(token)}>{busy?'Confirmando…':'Confirmar minha participação'}</button><p role="alert" className="form-error">{error}</p><Link href="/participar">Consultar formulário e disponibilidade</Link></>;
+}

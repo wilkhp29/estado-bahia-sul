@@ -1,0 +1,2 @@
+import InnerLayout from '../components/InnerLayout';
+export default function Loading(){return <InnerLayout><section className="portal-loading" role="status" aria-live="polite" aria-label="Carregando conteúdo"><span className="portal-loading-mark" aria-hidden="true"><i/><i/><i/></span><p className="portal-eyebrow">BAHIA DO SUL</p><h1>Preparando o próximo capítulo.</h1><p>Estamos organizando as informações para você.</p><div className="portal-loading-track" aria-hidden="true"><span/></div></section></InnerLayout>}

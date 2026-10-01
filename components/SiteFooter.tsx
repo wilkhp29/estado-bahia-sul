@@ -1,0 +1,6 @@
+import Link from 'next/link';
+const footerGroups = [
+  [['/projeto','O projeto'],['/territorio','Território'],['/economia','Economia'],['/mineracao','Mineração'],['/historia','História'],['/historia/professor-guilherme','Professor Guilherme']],
+  [['/estudos','Estudos'],['/documentos','Documentos'],['/fontes','Fontes e metodologia'],['/noticias','Notícias'],['/participar','Participar'],['/privacidade','Privacidade'],['/contato','Contato']],
+] as const;
+export default function SiteFooter(){return <footer className="site-footer movisul-footer portal-footer"><div className="portal-footer-brand"><Link href="/" className="portal-footer-title">Bahia do Sul</Link><p>Território, história, dados e participação.</p><p>Apresentação do movimento. Não é um órgão governamental.</p></div><nav aria-label="Menu do rodapé">{footerGroups.map((group,index)=><div key={index}>{group.map(([href,label])=><Link key={href} href={href}>{label}</Link>)}</div>)}</nav><p className="portal-footer-signature">Bahia do Sul <span>·</span> História, território e participação <span className="creator-credit-inline">· Criação do site: <a href="https://www.instagram.com/wilkhp29/" target="_blank" rel="noreferrer">William Santos</a></span></p></footer>;}

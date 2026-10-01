@@ -1,0 +1,59 @@
+.map-sidebar.has-selection .municipality-list { display: none; }
+.mobile-map-dock { display: none; }
+
+@media (max-width: 760px) {
+  .map-sidebar.has-selection .municipality-detail { display: none; }
+  .map-sidebar.has-selection .municipality-list { display: block; }
+  body > .mobile-map-dock[aria-live] {
+    display: block;
+    position: fixed;
+    z-index: 1200;
+    inset-inline: 12px;
+    bottom: max(12px, env(safe-area-inset-bottom));
+    width: min(560px, calc(100vw - 24px));
+    max-height: min(48svh, 390px);
+    margin-inline: auto;
+    overflow: hidden;
+    border: 1px solid #cbd9d0;
+    border-radius: 14px;
+    background: #fffefa;
+    color: #102b43;
+    box-shadow: 0 10px 32px #102b4333;
+  }
+  .mobile-map-dock-summary {
+    display: grid;
+    grid-template-columns: 78px minmax(0, 1fr) auto auto;
+    align-items: center;
+    gap: 10px;
+    min-height: 92px;
+    padding: 8px;
+  }
+  .mobile-map-dock-photo { width: 78px; height: 74px; overflow: hidden; border-radius: 8px; background: #edf2e9; }
+  .mobile-map-dock-photo > :is(.municipality-visual-photo,.municipality-visual-silhouette,.municipality-visual-pending) { width: 100%; height: 100%; min-height: 0; aspect-ratio: auto; }
+  .mobile-map-dock-photo .municipality-visual-pending > span { font: 600 13px/1.15 'Montserrat',sans-serif; }
+  .mobile-map-dock-photo .municipality-visual-pending small { font-size: 9px; }
+  .mobile-map-dock-photo .municipality-visual-silhouette { background: linear-gradient(145deg,#eaf3dc,#d6e8d0 58%,#c5ded2); }
+  .mobile-map-dock-photo .municipality-visual-silhouette svg { padding: 19px; color: #176b48; opacity: .72; }
+  .mobile-map-dock-photo .municipality-visual-silhouette > span { z-index: 1; left: 5px; right: 5px; bottom: 5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; padding: 4px 5px; border-radius: 4px; background: #fffefaeb; color: #173d32; font: 600 9px/1.2 'Montserrat',sans-serif; }
+  .mobile-map-dock-photo .municipality-image-credits { right: 3px; bottom: 3px; padding-inline: 5px; font-size: 8px; }
+  .mobile-map-dock-photo .municipality-image-credits summary { min-height: 24px; }
+  .mobile-map-dock-place { display: grid; gap: 3px; min-width: 0; }
+  .mobile-map-dock-place > span { color: #08753d; font: 800 9px/1.2 'Montserrat',sans-serif; letter-spacing: .1em; }
+  .mobile-map-dock-place strong { overflow-wrap: anywhere; font: 750 15px/1.15 'Montserrat',sans-serif; }
+  .mobile-map-dock-place small { color: #4a6267; font-size: 11px; line-height: 1.3; }
+  .mobile-map-dock :is(button) { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; justify-content: center; gap: 3px; border: 0; border-radius: 8px; background: transparent; color: #174b3c; cursor: pointer; }
+  .mobile-map-dock-toggle { flex-direction: column; padding-inline: 5px; font-size: 9px; }
+  .mobile-map-dock-close { width: 44px; }
+  .mobile-map-dock-details { max-height: calc(min(48svh,390px) - 92px); overflow: auto; overscroll-behavior: contain; padding: 0 14px 14px; border-top: 1px solid #dce6df; }
+  .mobile-map-dock-details dl { margin: 10px 0; font-size: 12px; }
+  .mobile-map-dock-details dl > div { align-items: flex-start; padding: 8px 0; }
+  .mobile-map-dock-details dd { max-width: 62%; line-height: 1.45; }
+  .mobile-map-dock-details .municipal-highlight { margin: 10px 0 0; padding-top: 12px; }
+  .mobile-map-dock-details .municipal-highlight p { font-size: 13px; }
+  .mobile-map-dock-details .municipal-highlight a { min-height: 40px; display: inline-flex; align-items: center; }
+  .mobile-map-dock :is(button,a):focus-visible { outline: 3px solid #087eaa; outline-offset: 2px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mobile-map-dock, .mobile-map-dock * { scroll-behavior: auto; transition: none !important; }
+}

@@ -1,0 +1,1063 @@
+{
+  "tool": "comp-spec",
+  "version": 1,
+  "createdAt": "2026-09-20T02:53:54.877Z",
+  "comp": ".impeccable/mocks/jornada.png",
+  "warnings": [
+    "region brand: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region coast: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region candidate-background: \"container\": true set in the regions file (the region-size refusal is overridden: one undivided element)",
+    "region portrait: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)",
+    "region intro-coast: \"bleed\": true set in the regions file (the clipped-artwork refusal is overridden: the page crops it there)"
+  ],
+  "uncoveredInkCells": [],
+  "compSize": {
+    "width": 1536,
+    "height": 1024
+  },
+  "aspect": 1.5,
+  "orientation": "landscape",
+  "palette": [
+    {
+      "hex": "#082c56",
+      "coverage": 0.4764
+    },
+    {
+      "hex": "#f7f7f8",
+      "coverage": 0.3757
+    },
+    {
+      "hex": "#14333a",
+      "coverage": 0.0663
+    },
+    {
+      "hex": "#2f88c4",
+      "coverage": 0.0447
+    },
+    {
+      "hex": "#48a4d2",
+      "coverage": 0.0369
+    }
+  ],
+  "bands": [
+    {
+      "y": 0.0588,
+      "strength": 0.2706
+    },
+    {
+      "y": 0.0941,
+      "strength": 1
+    },
+    {
+      "y": 0.1765,
+      "strength": 0.2501
+    },
+    {
+      "y": 0.2471,
+      "strength": 0.4066
+    },
+    {
+      "y": 0.4353,
+      "strength": 0.3252
+    },
+    {
+      "y": 0.4588,
+      "strength": 0.2347
+    },
+    {
+      "y": 0.4824,
+      "strength": 1
+    },
+    {
+      "y": 0.5412,
+      "strength": 1
+    },
+    {
+      "y": 0.6,
+      "strength": 0.2427
+    },
+    {
+      "y": 0.6706,
+      "strength": 0.3419
+    },
+    {
+      "y": 0.7059,
+      "strength": 0.2212
+    },
+    {
+      "y": 0.7882,
+      "strength": 0.2525
+    },
+    {
+      "y": 0.8353,
+      "strength": 1
+    },
+    {
+      "y": 0.8706,
+      "strength": 0.3531
+    },
+    {
+      "y": 0.8941,
+      "strength": 0.2552
+    },
+    {
+      "y": 0.9294,
+      "strength": 0.276
+    },
+    {
+      "y": 0.9647,
+      "strength": 0.2935
+    },
+    {
+      "y": 0.9882,
+      "strength": 0.2193
+    }
+  ],
+  "regions": [
+    {
+      "id": "header",
+      "kind": "chrome",
+      "note": "White navigation strip",
+      "grid": null,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.0938
+      },
+      "px": {
+        "x": 0,
+        "y": 0,
+        "w": 1536,
+        "h": 96
+      },
+      "aspect": 16,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9794
+        },
+        {
+          "hex": "#082156",
+          "coverage": 0.0086
+        },
+        {
+          "hex": "#2a4675",
+          "coverage": 0.0072
+        },
+        {
+          "hex": "#bacada",
+          "coverage": 0.0027
+        },
+        {
+          "hex": "#117828",
+          "coverage": 0.002
+        }
+      ],
+      "detail": {
+        "energy": 17.8375
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "brand",
+      "kind": "image",
+      "note": "Existing brand mark; original user-provided logo is authoritative",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.0846,
+        "y": 0.0039,
+        "w": 0.1823,
+        "h": 0.084
+      },
+      "px": {
+        "x": 130,
+        "y": 4,
+        "w": 280,
+        "h": 86
+      },
+      "aspect": 3.2558,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.8766
+        },
+        {
+          "hex": "#0d2e5d",
+          "coverage": 0.0587
+        },
+        {
+          "hex": "#117728",
+          "coverage": 0.0272
+        },
+        {
+          "hex": "#208cd1",
+          "coverage": 0.0203
+        },
+        {
+          "hex": "#ced9e7",
+          "coverage": 0.0173
+        }
+      ],
+      "detail": {
+        "energy": 37.8682
+      },
+      "medium": "raster",
+      "plate": "public/images/logo-bahia-do-sul-v2.png",
+      "text": null
+    },
+    {
+      "id": "navigation",
+      "kind": "control",
+      "note": "Four navigation links and search icon",
+      "grid": null,
+      "box": {
+        "x": 0.3971,
+        "y": 0.0234,
+        "w": 0.5208,
+        "h": 0.0488
+      },
+      "px": {
+        "x": 610,
+        "y": 24,
+        "w": 800,
+        "h": 50
+      },
+      "aspect": 16,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9623
+        },
+        {
+          "hex": "#1a3767",
+          "coverage": 0.0136
+        },
+        {
+          "hex": "#09164f",
+          "coverage": 0.0129
+        },
+        {
+          "hex": "#8e9ebb",
+          "coverage": 0.0056
+        },
+        {
+          "hex": "#53668e",
+          "coverage": 0.0056
+        }
+      ],
+      "detail": {
+        "energy": 20.7128
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "coast",
+      "kind": "image",
+      "note": "Full-bleed coastal landscape behind headline; cacao at right",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0,
+        "y": 0.0938,
+        "w": 1,
+        "h": 0.3945
+      },
+      "px": {
+        "x": 0,
+        "y": 96,
+        "w": 1536,
+        "h": 404
+      },
+      "aspect": 3.802,
+      "palette": [
+        {
+          "hex": "#08274c",
+          "coverage": 0.5106
+        },
+        {
+          "hex": "#4b9cd3",
+          "coverage": 0.1556
+        },
+        {
+          "hex": "#102d39",
+          "coverage": 0.1239
+        },
+        {
+          "hex": "#e7eef4",
+          "coverage": 0.1233
+        },
+        {
+          "hex": "#2d6da4",
+          "coverage": 0.0865
+        }
+      ],
+      "detail": {
+        "energy": 52.4391
+      },
+      "medium": "raster",
+      "plate": "public/images/jornada-coast.png",
+      "text": null
+    },
+    {
+      "id": "headline",
+      "kind": "text",
+      "note": "Two-line editorial heading: Bahia do Sul",
+      "grid": null,
+      "box": {
+        "x": 0.0599,
+        "y": 0.1494,
+        "w": 0.2279,
+        "h": 0.1963
+      },
+      "px": {
+        "x": 92,
+        "y": 153,
+        "w": 350,
+        "h": 201
+      },
+      "aspect": 1.7413,
+      "palette": [
+        {
+          "hex": "#092643",
+          "coverage": 0.5614
+        },
+        {
+          "hex": "#f7f8f8",
+          "coverage": 0.185
+        },
+        {
+          "hex": "#081c4c",
+          "coverage": 0.0961
+        },
+        {
+          "hex": "#5db75a",
+          "coverage": 0.0868
+        },
+        {
+          "hex": "#569ad7",
+          "coverage": 0.0706
+        }
+      ],
+      "detail": {
+        "energy": 34.168
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "tagline",
+      "kind": "text",
+      "note": "Nossa terra. Mais futuro.",
+      "grid": null,
+      "box": {
+        "x": 0.0632,
+        "y": 0.3535,
+        "w": 0.321,
+        "h": 0.0293
+      },
+      "px": {
+        "x": 97,
+        "y": 362,
+        "w": 493,
+        "h": 30
+      },
+      "aspect": 16.4333,
+      "palette": [
+        {
+          "hex": "#08274e",
+          "coverage": 0.8575
+        },
+        {
+          "hex": "#eef0f3",
+          "coverage": 0.0815
+        },
+        {
+          "hex": "#304e6f",
+          "coverage": 0.023
+        },
+        {
+          "hex": "#112f3e",
+          "coverage": 0.0224
+        },
+        {
+          "hex": "#a9b6c7",
+          "coverage": 0.0156
+        }
+      ],
+      "detail": {
+        "energy": 53.6347
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "project-action",
+      "kind": "control",
+      "note": "Green project button",
+      "grid": null,
+      "box": {
+        "x": 0.0645,
+        "y": 0.3975,
+        "w": 0.1764,
+        "h": 0.0586
+      },
+      "px": {
+        "x": 99,
+        "y": 407,
+        "w": 271,
+        "h": 60
+      },
+      "aspect": 4.5167,
+      "palette": [
+        {
+          "hex": "#187828",
+          "coverage": 0.8624
+        },
+        {
+          "hex": "#085638",
+          "coverage": 0.064
+        },
+        {
+          "hex": "#f4f7f4",
+          "coverage": 0.0387
+        },
+        {
+          "hex": "#b2d8b8",
+          "coverage": 0.0202
+        },
+        {
+          "hex": "#4c945c",
+          "coverage": 0.0146
+        }
+      ],
+      "detail": {
+        "energy": 23.6362
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "map-action",
+      "kind": "control",
+      "note": "Outlined map button",
+      "grid": null,
+      "box": {
+        "x": 0.2565,
+        "y": 0.3994,
+        "w": 0.1647,
+        "h": 0.0557
+      },
+      "px": {
+        "x": 394,
+        "y": 409,
+        "w": 253,
+        "h": 57
+      },
+      "aspect": 4.4386,
+      "palette": [
+        {
+          "hex": "#082849",
+          "coverage": 0.7595
+        },
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.1586
+        },
+        {
+          "hex": "#091748",
+          "coverage": 0.0558
+        },
+        {
+          "hex": "#617897",
+          "coverage": 0.0133
+        },
+        {
+          "hex": "#c6ceda",
+          "coverage": 0.0127
+        }
+      ],
+      "detail": {
+        "energy": 41.9108
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "chapter-nav",
+      "kind": "control",
+      "note": "Three chapter links with meaningful reading order",
+      "grid": null,
+      "box": {
+        "x": 0,
+        "y": 0.4883,
+        "w": 1,
+        "h": 0.0605
+      },
+      "px": {
+        "x": 0,
+        "y": 500,
+        "w": 1536,
+        "h": 62
+      },
+      "aspect": 24.7742,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.9884
+        },
+        {
+          "hex": "#e89e14",
+          "coverage": 0.0044
+        },
+        {
+          "hex": "#a8b8cb",
+          "coverage": 0.0031
+        },
+        {
+          "hex": "#234373",
+          "coverage": 0.0023
+        },
+        {
+          "hex": "#081f5f",
+          "coverage": 0.0018
+        }
+      ],
+      "detail": {
+        "energy": 10.6531
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "candidate-background",
+      "kind": "chrome",
+      "note": "Navy candidate band",
+      "grid": null,
+      "container": true,
+      "box": {
+        "x": 0,
+        "y": 0.5488,
+        "w": 1,
+        "h": 0.293
+      },
+      "px": {
+        "x": 0,
+        "y": 562,
+        "w": 1536,
+        "h": 300
+      },
+      "aspect": 5.12,
+      "palette": [
+        {
+          "hex": "#082f5b",
+          "coverage": 0.8255
+        },
+        {
+          "hex": "#163636",
+          "coverage": 0.0575
+        },
+        {
+          "hex": "#9e604d",
+          "coverage": 0.051
+        },
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.0387
+        },
+        {
+          "hex": "#177828",
+          "coverage": 0.0273
+        }
+      ],
+      "detail": {
+        "energy": 28.4244
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "candidate-title",
+      "kind": "text",
+      "note": "Two-line Professor Guilherme heading",
+      "grid": null,
+      "box": {
+        "x": 0.0638,
+        "y": 0.5742,
+        "w": 0.2533,
+        "h": 0.1387
+      },
+      "px": {
+        "x": 98,
+        "y": 588,
+        "w": 389,
+        "h": 142
+      },
+      "aspect": 2.7394,
+      "palette": [
+        {
+          "hex": "#082753",
+          "coverage": 0.7063
+        },
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.244
+        },
+        {
+          "hex": "#a4afc3",
+          "coverage": 0.0203
+        },
+        {
+          "hex": "#3a5678",
+          "coverage": 0.0151
+        },
+        {
+          "hex": "#697c99",
+          "coverage": 0.0143
+        }
+      ],
+      "detail": {
+        "energy": 58.3368
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "candidate-intro",
+      "kind": "text",
+      "note": "Conheça sua relação com o projeto.",
+      "grid": null,
+      "box": {
+        "x": 0.0638,
+        "y": 0.7227,
+        "w": 0.332,
+        "h": 0.0313
+      },
+      "px": {
+        "x": 98,
+        "y": 740,
+        "w": 510,
+        "h": 32
+      },
+      "aspect": 15.9375,
+      "palette": [
+        {
+          "hex": "#082753",
+          "coverage": 0.8639
+        },
+        {
+          "hex": "#f1f2f5",
+          "coverage": 0.0703
+        },
+        {
+          "hex": "#b9c5d5",
+          "coverage": 0.0225
+        },
+        {
+          "hex": "#2a4868",
+          "coverage": 0.022
+        },
+        {
+          "hex": "#5e7493",
+          "coverage": 0.0214
+        }
+      ],
+      "detail": {
+        "energy": 57.7428
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "candidate-action",
+      "kind": "control",
+      "note": "Green conhecer button",
+      "grid": null,
+      "box": {
+        "x": 0.0638,
+        "y": 0.7705,
+        "w": 0.1803,
+        "h": 0.0508
+      },
+      "px": {
+        "x": 98,
+        "y": 789,
+        "w": 277,
+        "h": 52
+      },
+      "aspect": 5.3269,
+      "palette": [
+        {
+          "hex": "#177728",
+          "coverage": 0.8546
+        },
+        {
+          "hex": "#08284a",
+          "coverage": 0.0697
+        },
+        {
+          "hex": "#f1f7f3",
+          "coverage": 0.0466
+        },
+        {
+          "hex": "#b0d6b8",
+          "coverage": 0.02
+        },
+        {
+          "hex": "#559e65",
+          "coverage": 0.0091
+        }
+      ],
+      "detail": {
+        "energy": 24.0012
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "instagram-action",
+      "kind": "control",
+      "note": "Outlined Instagram button",
+      "grid": null,
+      "box": {
+        "x": 0.2604,
+        "y": 0.7705,
+        "w": 0.1953,
+        "h": 0.0508
+      },
+      "px": {
+        "x": 400,
+        "y": 789,
+        "w": 300,
+        "h": 52
+      },
+      "aspect": 5.7692,
+      "palette": [
+        {
+          "hex": "#082755",
+          "coverage": 0.784
+        },
+        {
+          "hex": "#edeef5",
+          "coverage": 0.1243
+        },
+        {
+          "hex": "#214768",
+          "coverage": 0.0726
+        },
+        {
+          "hex": "#abb7c9",
+          "coverage": 0.0112
+        },
+        {
+          "hex": "#7a91a8",
+          "coverage": 0.0079
+        }
+      ],
+      "detail": {
+        "energy": 56.45
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "portrait",
+      "kind": "image",
+      "note": "Portrait of Professor Guilherme; preserve authentic source, not AI reinterpretation",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.5143,
+        "y": 0.5566,
+        "w": 0.306,
+        "h": 0.2852
+      },
+      "px": {
+        "x": 790,
+        "y": 570,
+        "w": 470,
+        "h": 292
+      },
+      "aspect": 1.6096,
+      "palette": [
+        {
+          "hex": "#083661",
+          "coverage": 0.5678
+        },
+        {
+          "hex": "#153636",
+          "coverage": 0.1992
+        },
+        {
+          "hex": "#9d5f4d",
+          "coverage": 0.1849
+        },
+        {
+          "hex": "#083878",
+          "coverage": 0.0252
+        },
+        {
+          "hex": "#856058",
+          "coverage": 0.0229
+        }
+      ],
+      "detail": {
+        "energy": 8.6151
+      },
+      "medium": "raster",
+      "plate": "public/images/professor-guilherme-source.png",
+      "text": null
+    },
+    {
+      "id": "candidate-motto",
+      "kind": "text",
+      "note": "Nossa terra. Mais futuro.",
+      "grid": null,
+      "box": {
+        "x": 0.804,
+        "y": 0.6367,
+        "w": 0.151,
+        "h": 0.0762
+      },
+      "px": {
+        "x": 1235,
+        "y": 652,
+        "w": 232,
+        "h": 78
+      },
+      "aspect": 2.9744,
+      "palette": [
+        {
+          "hex": "#083460",
+          "coverage": 0.9338
+        },
+        {
+          "hex": "#2b5374",
+          "coverage": 0.0231
+        },
+        {
+          "hex": "#f5f7f8",
+          "coverage": 0.0231
+        },
+        {
+          "hex": "#bfccdc",
+          "coverage": 0.0128
+        },
+        {
+          "hex": "#f5af0b",
+          "coverage": 0.0072
+        }
+      ],
+      "detail": {
+        "energy": 23.7716
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "intro-ground",
+      "kind": "chrome",
+      "note": "Warm white beginning of project section",
+      "grid": null,
+      "box": {
+        "x": 0,
+        "y": 0.8428,
+        "w": 1,
+        "h": 0.1572
+      },
+      "px": {
+        "x": 0,
+        "y": 863,
+        "w": 1536,
+        "h": 161
+      },
+      "aspect": 9.5404,
+      "palette": [
+        {
+          "hex": "#f7f7f8",
+          "coverage": 0.7335
+        },
+        {
+          "hex": "#0f89c3",
+          "coverage": 0.1085
+        },
+        {
+          "hex": "#afd4f2",
+          "coverage": 0.0923
+        },
+        {
+          "hex": "#315d75",
+          "coverage": 0.0389
+        },
+        {
+          "hex": "#78b1e4",
+          "coverage": 0.0267
+        }
+      ],
+      "detail": {
+        "energy": 34.8646
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "intro-title",
+      "kind": "text",
+      "note": "Entenda o projeto",
+      "grid": null,
+      "box": {
+        "x": 0.0638,
+        "y": 0.916,
+        "w": 0.2917,
+        "h": 0.0537
+      },
+      "px": {
+        "x": 98,
+        "y": 938,
+        "w": 448,
+        "h": 55
+      },
+      "aspect": 8.1455,
+      "palette": [
+        {
+          "hex": "#f8f8f8",
+          "coverage": 0.7786
+        },
+        {
+          "hex": "#092451",
+          "coverage": 0.167
+        },
+        {
+          "hex": "#4b6587",
+          "coverage": 0.023
+        },
+        {
+          "hex": "#c7ccd6",
+          "coverage": 0.0164
+        },
+        {
+          "hex": "#1e4061",
+          "coverage": 0.015
+        }
+      ],
+      "detail": {
+        "energy": 78.3761
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "intro-description",
+      "kind": "text",
+      "note": "Short introduction continued below fold",
+      "grid": null,
+      "box": {
+        "x": 0.0638,
+        "y": 0.9785,
+        "w": 0.3809,
+        "h": 0.0215
+      },
+      "px": {
+        "x": 98,
+        "y": 1002,
+        "w": 585,
+        "h": 22
+      },
+      "aspect": 26.5909,
+      "palette": [
+        {
+          "hex": "#f7f7f7",
+          "coverage": 0.8515
+        },
+        {
+          "hex": "#274677",
+          "coverage": 0.0405
+        },
+        {
+          "hex": "#7a8eac",
+          "coverage": 0.0399
+        },
+        {
+          "hex": "#b5c2cf",
+          "coverage": 0.0399
+        },
+        {
+          "hex": "#112c68",
+          "coverage": 0.0281
+        }
+      ],
+      "detail": {
+        "energy": 59.2263
+      },
+      "medium": "semantic",
+      "plate": null,
+      "text": null
+    },
+    {
+      "id": "intro-coast",
+      "kind": "image",
+      "note": "Landscape continues into next section",
+      "grid": null,
+      "bleed": true,
+      "box": {
+        "x": 0.474,
+        "y": 0.8672,
+        "w": 0.4707,
+        "h": 0.1328
+      },
+      "px": {
+        "x": 728,
+        "y": 888,
+        "w": 723,
+        "h": 136
+      },
+      "aspect": 5.3162,
+      "palette": [
+        {
+          "hex": "#0f89c3",
+          "coverage": 0.3619
+        },
+        {
+          "hex": "#b4d7f3",
+          "coverage": 0.3455
+        },
+        {
+          "hex": "#315d74",
+          "coverage": 0.1173
+        },
+        {
+          "hex": "#7eb4e5",
+          "coverage": 0.1104
+        },
+        {
+          "hex": "#33400f",
+          "coverage": 0.0648
+        }
+      ],
+      "detail": {
+        "energy": 36.6028
+      },
+      "medium": "raster",
+      "plate": "public/images/jornada-coast.png",
+      "text": null
+    }
+  ]
+}

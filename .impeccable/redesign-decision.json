@@ -1,0 +1,221 @@
+{
+  "title": "Bahia do Sul — nova direção visual",
+  "question": "Qual experiência devemos desenvolver? As imagens são estudos de layout, não o site pronto. A marca e o retrato real serão preservados na implementação.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Jornada pelo território",
+      "kicker": "DIREÇÃO VISUAL",
+      "lineage": "Cadernos fotográficos de viagem e grandes reportagens",
+      "thesis": "A paisagem abre a conversa; projeto e Guilherme aparecem em capítulos claros.",
+      "palette": [
+        "#052957",
+        "#14752b",
+        "#0074ad",
+        "#f5f2e9"
+      ],
+      "materials": [
+        "fotografia panorâmica",
+        "papel claro"
+      ],
+      "viewport": "Paisagem ampla, índice de capítulos e apresentação editorial de Guilherme logo após a introdução.",
+      "risk": "A fotografia não pode empurrar o candidato para longe da primeira leitura.",
+      "raised": [
+        {
+          "from": "challenger-posters-covers-sleeves-saul-bass-title",
+          "raise": "Uma ideia dominante por seção."
+        },
+        {
+          "from": "challenger-design-canon-futurist-bolted-book",
+          "raise": "Hierarquia tipográfica sem títulos concorrentes."
+        },
+        {
+          "from": "challenger-operate-c-cracktro-scroller-queue",
+          "raise": "Estado ativo inequívoco e leitura sem movimento."
+        },
+        {
+          "from": "challenger-operate-a-cutting-bench-select-rail",
+          "raise": "Sequência narrativa e retomada clara de seção."
+        },
+        {
+          "from": "challenger-architecture-inhabitable-space-versailles-bosquet-vistas",
+          "raise": "Transições entre descoberta e aprofundamento."
+        },
+        {
+          "from": "challenger-games-toys-physics-play-brick-build-instructions",
+          "raise": "Etapas compreensíveis sem depender apenas de texto."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/jornada.png"
+    },
+    {
+      "id": "model-pick",
+      "label": "Revista Bahia do Sul",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "Revistas de reportagem regional e retratos editoriais",
+      "thesis": "Projeto e pessoa ganham espaço na mesma abertura, com informação fácil de explorar.",
+      "palette": [
+        "#052957",
+        "#14752b",
+        "#ffffff",
+        "#ffb511"
+      ],
+      "materials": [
+        "fotografia editorial",
+        "grid de revista"
+      ],
+      "viewport": "Título e paisagem principais, perfil de Guilherme em coluna própria e mapa na sequência.",
+      "risk": "O formato editorial é familiar; precisa de direção fotográfica forte para ser distintivo.",
+      "comp": ".impeccable/mocks/decision/revista.png"
+    },
+    {
+      "id": "challenger-posters-covers-sleeves-saul-bass-title",
+      "label": "Narrativa em recortes",
+      "verdict": "declined",
+      "lineage": "posters-covers-sleeves-saul-bass-title",
+      "palette": [
+        "#b85222",
+        "#111111",
+        "#f3ecda"
+      ],
+      "materials": [
+        "recortes e planos de cor"
+      ],
+      "thesis": "Uma ideia por cena, com mapa, projeto e candidato em sequência.",
+      "viewport": "Cenas assimétricas substituem a leitura contínua.",
+      "case": "A linguagem de créditos não identifica bem este portal nem facilita consultar fontes.",
+      "risk": "A linguagem de créditos não identifica bem este portal nem facilita consultar fontes.",
+      "kept": "Uma ideia dominante por seção.",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-saul-bass-title-hero.webp"
+    },
+    {
+      "id": "challenger-design-canon-futurist-bolted-book",
+      "label": "Manifesto tipográfico",
+      "verdict": "declined",
+      "lineage": "design-canon-futurist-bolted-book",
+      "palette": [
+        "#f1e4ca",
+        "#121212",
+        "#b32222"
+      ],
+      "materials": [
+        "papel e tipos de madeira"
+      ],
+      "thesis": "A proposta apresentada como um manifesto de páginas expressivas.",
+      "viewport": "Palavras diagonais e páginas de forte contraste.",
+      "case": "A composição inclinada disputa atenção com a proposta e dificulta a leitura.",
+      "risk": "A composição inclinada disputa atenção com a proposta e dificulta a leitura.",
+      "kept": "Hierarquia tipográfica sem títulos concorrentes.",
+      "hero": "https://impeccable.style/worlds/cards/design-canon-futurist-bolted-book-hero.webp"
+    },
+    {
+      "id": "challenger-operate-c-cracktro-scroller-queue",
+      "label": "Arquivo luminoso",
+      "verdict": "declined",
+      "lineage": "operate-c-cracktro-scroller-queue",
+      "palette": [
+        "#090909",
+        "#eee9dd",
+        "#bd872d"
+      ],
+      "materials": [
+        "preto emissivo e bitmap"
+      ],
+      "thesis": "Conteúdo ordenado em camadas sobre fundo escuro.",
+      "viewport": "Uma linha de leitura em primeiro plano.",
+      "case": "A estética computacional afasta a identidade territorial e esconde a navegação convencional.",
+      "risk": "A estética computacional afasta a identidade territorial e esconde a navegação convencional.",
+      "kept": "Estado ativo inequívoco e leitura sem movimento.",
+      "hero": "https://impeccable.style/worlds/cards/operate-c-cracktro-scroller-queue-hero.webp"
+    },
+    {
+      "id": "challenger-operate-a-cutting-bench-select-rail",
+      "label": "Mesa de documentário",
+      "verdict": "declined",
+      "lineage": "operate-a-cutting-bench-select-rail",
+      "palette": [
+        "#e97618",
+        "#080808",
+        "#ffffff"
+      ],
+      "materials": [
+        "película e janelas brancas"
+      ],
+      "thesis": "A história organizada em fotogramas navegáveis.",
+      "viewport": "Uma sequência horizontal de projeto, pessoa e participação.",
+      "case": "A metáfora de edição exige aprendizado para consultar um portal público.",
+      "risk": "A metáfora de edição exige aprendizado para consultar um portal público.",
+      "kept": "Sequência narrativa e retomada clara de seção.",
+      "hero": "https://impeccable.style/worlds/cards/operate-a-cutting-bench-select-rail-hero.webp"
+    },
+    {
+      "id": "challenger-architecture-inhabitable-space-versailles-bosquet-vistas",
+      "label": "Percurso de paisagens",
+      "verdict": "declined",
+      "lineage": "architecture-inhabitable-space-versailles-bosquet-vistas",
+      "palette": [
+        "#38532e",
+        "#e4d9bb",
+        "#b79947"
+      ],
+      "materials": [
+        "vegetação e pedra clara"
+      ],
+      "thesis": "O território explorado por vistas e passagens sucessivas.",
+      "viewport": "Uma perspectiva central conduz até os conteúdos.",
+      "case": "A simetria palaciana contradiz a paisagem local e dificulta comparar informações.",
+      "risk": "A simetria palaciana contradiz a paisagem local e dificulta comparar informações.",
+      "kept": "Transições entre descoberta e aprofundamento.",
+      "hero": "https://impeccable.style/worlds/cards/architecture-inhabitable-space-versailles-bosquet-vistas-hero.webp"
+    },
+    {
+      "id": "challenger-games-toys-physics-play-brick-build-instructions",
+      "label": "Projeto passo a passo",
+      "verdict": "declined",
+      "lineage": "games-toys-physics-play-brick-build-instructions",
+      "palette": [
+        "#a7d5f3",
+        "#171717",
+        "#d73224",
+        "#f0c63e"
+      ],
+      "materials": [
+        "grade modular e diagramas"
+      ],
+      "thesis": "O processo explicado como montagem em etapas.",
+      "viewport": "Uma etapa grande e detalhes adjacentes.",
+      "case": "A montagem lúdica pode sugerir um processo automático e reduz a identidade do projeto.",
+      "risk": "A montagem lúdica pode sugerir um processo automático e reduz a identidade do projeto.",
+      "kept": "Etapas compreensíveis sem depender apenas de texto.",
+      "hero": "https://impeccable.style/worlds/cards/games-toys-physics-play-brick-build-instructions-hero.webp"
+    }
+  ],
+  "canon": true,
+  "canonCard": {
+    "label": "Portal clássico",
+    "thesis": "Navegação familiar, abertura panorâmica e blocos bem definidos.",
+    "palette": [
+      "#052957",
+      "#14752b",
+      "#ffffff"
+    ],
+    "materials": [
+      "superfícies claras",
+      "fotografia"
+    ],
+    "viewport": "Hero horizontal seguido por seção do candidato e mapa.",
+    "risk": "É a opção mais próxima do site atual e menos diferenciada.",
+    "comp": ".impeccable/mocks/decision/classico.png"
+  },
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "steer": true,
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  }
+}

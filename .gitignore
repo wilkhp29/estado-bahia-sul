@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.next-dev/
+.superpowers/
+.env*
+!.env.example
+private/
+.vercel/
+*.sqlite*
+*.tsbuildinfo
+test-results/
+.vercel

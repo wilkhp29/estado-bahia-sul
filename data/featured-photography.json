@@ -1,0 +1,204 @@
+{
+  "cities": [
+    {
+      "name": "Ilhéus",
+      "ibgeCode": "2913606",
+      "title": "Ilhéus",
+      "alt": "bem tombado no município de Ilhéus, Bahia, Brasil — Ilhéus, Bahia",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Vista_lateral_do_Ilh%C3%A9us_Hotel%2C_Ilh%C3%A9us_Bahia%2C_2021.jpg/960px-Vista_lateral_do_Ilh%C3%A9us_Hotel%2C_Ilh%C3%A9us_Bahia%2C_2021.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_lateral_do_Ilh%C3%A9us_Hotel,_Ilh%C3%A9us_Bahia,_2021.jpg",
+      "author": "Paula Fonseca Carvalho",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "name": "Itabuna",
+      "ibgeCode": "2914802",
+      "title": "Itabuna",
+      "alt": "Rio Cachoeira , na cidade de Itabuna , Bahia. Ao fundo, edifícios dos bairros nobres Góes Calmon (à esquerda) e Jardim Vitória (à direita). — Itabuna, Bahia",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Itabuna_1.jpg/960px-Itabuna_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Itabuna_1.jpg",
+      "author": "Leandro M800",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+    },
+    {
+      "name": "Porto Seguro",
+      "ibgeCode": "2925303",
+      "title": "Porto Seguro",
+      "alt": "Vieille ville historique à Porto Seguro, état de Bahia, Brésil. — Porto Seguro, Bahia",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Porto_Seguro_-_Bahia_banner.jpg/960px-Porto_Seguro_-_Bahia_banner.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porto_Seguro_-_Bahia_banner.jpg",
+      "author": "Cidade Histórica - Porto Seguro-BA - panoramio.jpg : Vilamir Azevedo derivative work : Barbe-sauvage",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "name": "Teixeira de Freitas",
+      "ibgeCode": "2931350",
+      "title": "Teixeira de Freitas",
+      "alt": "Imagem aérea Teixeira de Freitas mostrando parte da cidade — Teixeira de Freitas, Bahia",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Imagem_a%C3%A9rea_Teixeira_de_Freitas.png/960px-Imagem_a%C3%A9rea_Teixeira_de_Freitas.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Imagem_a%C3%A9rea_Teixeira_de_Freitas.png",
+      "author": "Gorylla Drone",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "name": "Eunápolis",
+      "ibgeCode": "2910727",
+      "title": "Eunápolis",
+      "alt": "Eunápolis - State of Bahia, Brazil — Eunápolis, Bahia",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Eun%C3%A1polis_-_State_of_Bahia%2C_Brazil_-_panoramio.jpg/960px-Eun%C3%A1polis_-_State_of_Bahia%2C_Brazil_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eun%C3%A1polis_-_State_of_Bahia,_Brazil_-_panoramio.jpg",
+      "author": "Elizanio Belo",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "name": "Vitória da Conquista",
+      "ibgeCode": "2933307",
+      "title": "Vitória da Conquista",
+      "alt": "Vitória da Conquista - State of Bahia, Brazil — Vitória da Conquista, Bahia",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Vit%C3%B3ria_da_Conquista_-_State_of_Bahia%2C_Brazil_-_panoramio.jpg/960px-Vit%C3%B3ria_da_Conquista_-_State_of_Bahia%2C_Brazil_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vit%C3%B3ria_da_Conquista_-_State_of_Bahia,_Brazil_-_panoramio.jpg",
+      "author": "Fabiano Linhares",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "name": "Brumado",
+      "ibgeCode": "2904605",
+      "title": "Brumado",
+      "alt": "brumado-bahia — Brumado, Bahia",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/51/Brumado-bahia_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brumado-bahia_-_panoramio.jpg",
+      "author": "Roberto de vasconcel…",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "name": "Bom Jesus da Lapa",
+      "ibgeCode": "2903904",
+      "title": "Bom Jesus da Lapa",
+      "alt": "Vista da ponte do outro lado do Rio são Francisco, Bom Jesus da Lapa Bahia 2012 — Bom Jesus da Lapa, Bahia",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Vista_da_ponte_do_outro_lado_do_Rio_s%C3%A3o_Francisco%2C_Bom_Jesus_da_Lapa_Bahia_2012_-_panoramio.jpg/960px-Vista_da_ponte_do_outro_lado_do_Rio_s%C3%A3o_Francisco%2C_Bom_Jesus_da_Lapa_Bahia_2012_-_panoramio.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_da_ponte_do_outro_lado_do_Rio_s%C3%A3o_Francisco,_Bom_Jesus_da_Lapa_Bahia_2012_-_panoramio.jpg",
+      "author": "charlen",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "name": "Jiquiriçá",
+      "ibgeCode": "2918209",
+      "title": "Jiquiriçá",
+      "alt": "Cachoeira dos Prazeres, em Jiquiriçá.",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Vale_do_Jiquiri%C3%A7%C3%A1_-_Bahia_01.JPG/960px-Vale_do_Jiquiri%C3%A7%C3%A1_-_Bahia_01.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vale_do_Jiquiri%C3%A7%C3%A1_-_Bahia_01.JPG",
+      "author": "Cal SanTiago",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "name": "Amargosa",
+      "ibgeCode": "2901007",
+      "title": "Amargosa",
+      "alt": "Amargosa — Amargosa, Bahia",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Amargosa_%285615762901%29.jpg/960px-Amargosa_%285615762901%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amargosa_(5615762901).jpg",
+      "author": "Otávio Nogueira from Fortaleza, BR",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "name": "Jequié",
+      "ibgeCode": "2918001",
+      "title": "Jequié",
+      "alt": "Vista de Jequié, Bahia.",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Jequi%C3%A9_-_Bahia.jpg/960px-Jequi%C3%A9_-_Bahia.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jequi%C3%A9_-_Bahia.jpg",
+      "author": "Daniel9d Martins",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    },
+    {
+      "name": "Valença",
+      "ibgeCode": "2932903",
+      "title": "Valença",
+      "alt": "Vista da Câmara de Vereadores de Valença, Bahia.",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Vista_em_diagonal_da_C%C3%A2mara_de_Vereadores_de_Valen%C3%A7a-BA.jpg/960px-Vista_em_diagonal_da_C%C3%A2mara_de_Vereadores_de_Valen%C3%A7a-BA.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vista_em_diagonal_da_C%C3%A2mara_de_Vereadores_de_Valen%C3%A7a-BA.jpg",
+      "author": "MandacaruFlor",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "name": "Cairu",
+      "ibgeCode": "2905404",
+      "title": "Cairu",
+      "alt": "Praia da Argila, em Gamboa, na ilha de Tinharé, município de Cairu.",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Praia_da_Argila.jpg/960px-Praia_da_Argila.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praia_da_Argila.jpg",
+      "author": "Eduardo P",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ],
+  "resources": [
+    {
+      "title": "Mata Atlântica",
+      "alt": "Vegetação da Mata Atlântica na Bahia.",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Mata_Atlantica%2C_Bahia%2C_Brasil.jpg/960px-Mata_Atlantica%2C_Bahia%2C_Brasil.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mata_Atlantica,_Bahia,_Brasil.jpg",
+      "author": "Fatura",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Mata Atlântica · Bahia",
+      "kind": "nature"
+    },
+    {
+      "title": "Litoral e ilhas",
+      "alt": "Praia da Argila, em Gamboa, na ilha de Tinharé, município de Cairu.",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Praia_da_Argila.jpg/960px-Praia_da_Argila.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Praia_da_Argila.jpg",
+      "author": "Eduardo P",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Praia da Argila · Cairu",
+      "kind": "nature"
+    },
+    {
+      "title": "Rios e cachoeiras",
+      "alt": "Cachoeira dos Prazeres, em Jiquiriçá.",
+      "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Vale_do_Jiquiri%C3%A7%C3%A1_-_Bahia_01.JPG/960px-Vale_do_Jiquiri%C3%A7%C3%A1_-_Bahia_01.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vale_do_Jiquiri%C3%A7%C3%A1_-_Bahia_01.JPG",
+      "author": "Cal SanTiago",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Cachoeira dos Prazeres · Jiquiriçá",
+      "kind": "nature"
+    },
+    {
+      "title": "Magnesita",
+      "alt": "Cristais de magnesita provenientes da Serra das Éguas, Brumado.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Magnesite-117739.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Magnesite-117739.jpg",
+      "author": "Rob Lavinsky, iRocks.com – CC-BY-SA-3.0",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Amostra mineral · Serra das Éguas, Brumado",
+      "kind": "mineral"
+    },
+    {
+      "title": "Quartzo",
+      "alt": "Amostra de quartzo geminado proveniente de Brumado.",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Quartz-rhqtz-102a.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quartz-rhqtz-102a.jpg",
+      "author": "Rob Lavinsky, iRocks.com – CC-BY-SA-3.0",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "caption": "Amostra mineral · Brumado",
+      "kind": "mineral"
+    }
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "tool": "comp-diff",
+  "version": 1,
+  "createdAt": "2026-09-20T03:08:49.665Z",
+  "label": "desktop",
+  "comp": ".impeccable/mocks/jornada.png",
+  "build": ".impeccable/review/desktop.png",
+  "spec": ".impeccable/build/spec.json",
+  "compSize": "1536x1024",
+  "buildSize": "1440x4832",
+  "align": "top",
+  "overall": 0.6657,
+  "verdict": "drift",
+  "scores": {
+    "overall": 0.6657,
+    "structure": 0.4024,
+    "color": 0.8111,
+    "colorIntersection": 0.7419,
+    "paletteMatch": 0.8484,
+    "detail": 0.6881,
+    "detailRaw": 0.7297,
+    "detailAdded": 0.0833,
+    "bands": 1
+  },
+  "palette": {
+    "comp": [
+      {
+        "hex": "#082c56",
+        "coverage": 0.4602
+      },
+      {
+        "hex": "#f7f7f8",
+        "coverage": 0.3628
+      },
+      {
+        "hex": "#14333a",
+        "coverage": 0.0641
+      },
+      {
+        "hex": "#2f88c4",
+        "coverage": 0.0431
+      },
+      {
+        "hex": "#48a4d2",
+        "coverage": 0.0356
+      },
+      {
+        "hex": "#bcd5ec",
+        "coverage": 0.0342
+      }
+    ],
+    "build": [
+      {
+        "hex": "#082855",
+        "coverage": 0.5553
+      },
+      {
+        "hex": "#f7f8f8",
+        "coverage": 0.3312
+      },
+      {
+        "hex": "#0e2a37",
+        "coverage": 0.0321
+      },
+      {
+        "hex": "#c2d6ea",
+        "coverage": 0.0287
+      },
+      {
+        "hex": "#2c5b84",
+        "coverage": 0.0276
+      },
+      {
+        "hex": "#2d433f",
+        "coverage": 0.0251
+      }
+    ]
+  },
+  "regions": [
+    {
+      "id": "header",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 0.0938,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.7844,
+        "structure": 0.8959,
+        "color": 0.9817,
+        "colorIntersection": 0.9662,
+        "paletteMatch": 0.99,
+        "detail": 0.4817,
+        "detailRaw": 0.5494,
+        "detailAdded": 0.1354,
+        "bands": 0.7
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 135,
+          "y": 9,
+          "w": 1401,
+          "h": 87
+        },
+        "build": {
+          "x": 104,
+          "y": 10,
+          "w": 1320,
+          "h": 75
+        }
+      }
+    },
+    {
+      "id": "brand",
+      "x": 0.0846,
+      "y": 0.0039,
+      "w": 0.1823,
+      "h": 0.084,
+      "kind": "image",
+      "score": {
+        "overall": 0.5208,
+        "structure": 0.4286,
+        "color": 0.888,
+        "colorIntersection": 0.8326,
+        "paletteMatch": 0.9178,
+        "detail": 0.394,
+        "detailRaw": 0.4669,
+        "detailAdded": 0.1458,
+        "bands": 0.78
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 5,
+          "y": 5,
+          "w": 264,
+          "h": 77
+        },
+        "build": {
+          "x": 0,
+          "y": 6,
+          "w": 208,
+          "h": 75
+        }
+      }
+    },
+    {
+      "id": "navigation",
+      "x": 0.3971,
+      "y": 0.0234,
+      "w": 0.5208,
+      "h": 0.0488,
+      "kind": "control",
+      "score": {
+        "overall": 0.7902,
+        "structure": 0.8483,
+        "color": 0.9758,
+        "colorIntersection": 0.962,
+        "paletteMatch": 0.9833,
+        "detail": 0.3347,
+        "detailRaw": 0.392,
+        "detailAdded": 0.1146,
+        "bands": 1
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 3,
+          "y": 14,
+          "w": 787,
+          "h": 25
+        },
+        "build": {
+          "x": 260,
+          "y": 18,
+          "w": 540,
+          "h": 18
+        }
+      }
+    },
+    {
+      "id": "coast",
+      "x": 0,
+      "y": 0.0938,
+      "w": 1,
+      "h": 0.3945,
+      "kind": "image",
+      "score": {
+        "overall": 0.7732,
+        "structure": 0.6569,
+        "color": 0.8434,
+        "colorIntersection": 0.8192,
+        "paletteMatch": 0.8564,
+        "detail": 0.8055,
+        "detailRaw": 0.8576,
+        "detailAdded": 0.1042,
+        "bands": 0.75
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 1536,
+          "h": 404
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 1536,
+          "h": 404
+        }
+      }
+    },
+    {
+      "id": "headline",
+      "x": 0.0599,
+      "y": 0.1494,
+      "w": 0.2279,
+      "h": 0.1963,
+      "kind": "text",
+      "score": {
+        "overall": 0.5203,
+        "structure": 0.425,
+        "color": 0.715,
+        "colorIntersection": 0.5733,
+        "paletteMatch": 0.7913,
+        "detail": 0.4834,
+        "detailRaw": 0.5563,
+        "detailAdded": 0.1458,
+        "bands": 0.5651
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 6,
+          "y": 6,
+          "w": 328,
+          "h": 190
+        },
+        "build": {
+          "x": 9,
+          "y": 27,
+          "w": 307,
+          "h": 174
+        }
+      }
+    },
+    {
+      "id": "tagline",
+      "x": 0.0632,
+      "y": 0.3535,
+      "w": 0.321,
+      "h": 0.0293,
+      "kind": "text",
+      "score": {
+        "overall": 0.5478,
+        "structure": 0.5926,
+        "color": 0.7817,
+        "colorIntersection": 0.6908,
+        "paletteMatch": 0.8307,
+        "detail": 0,
+        "detailRaw": 0.1307,
+        "detailAdded": 0.5625,
+        "bands": 0.56
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 2,
+          "y": 14,
+          "w": 473,
+          "h": 14
+        },
+        "build": {
+          "x": 2,
+          "y": 0,
+          "w": 489,
+          "h": 45
+        }
+      }
+    },
+    {
+      "id": "project-action",
+      "x": 0.0645,
+      "y": 0.3975,
+      "w": 0.1764,
+      "h": 0.0586,
+      "kind": "control",
+      "score": {
+        "overall": 0.7381,
+        "structure": 0.7277,
+        "color": 0.8907,
+        "colorIntersection": 0.7993,
+        "paletteMatch": 0.9399,
+        "detail": 0.4947,
+        "detailRaw": 0.5207,
+        "detailAdded": 0.0521,
+        "bands": 1
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 271,
+          "h": 60
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 271,
+          "h": 60
+        }
+      }
+    },
+    {
+      "id": "map-action",
+      "x": 0.2565,
+      "y": 0.3994,
+      "w": 0.1647,
+      "h": 0.0557,
+      "kind": "control",
+      "score": {
+        "overall": 0.5836,
+        "structure": 0.5132,
+        "color": 0.7717,
+        "colorIntersection": 0.6875,
+        "paletteMatch": 0.8171,
+        "detail": 0.4127,
+        "detailRaw": 0.5221,
+        "detailAdded": 0.2188,
+        "bands": 0.82
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 253,
+          "h": 56
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 247,
+          "h": 56
+        }
+      }
+    },
+    {
+      "id": "chapter-nav",
+      "x": 0,
+      "y": 0.4883,
+      "w": 1,
+      "h": 0.0605,
+      "kind": "control",
+      "score": {
+        "overall": 0.4748,
+        "structure": 0.3207,
+        "color": 0.8011,
+        "colorIntersection": 0.4528,
+        "paletteMatch": 0.9886,
+        "detail": 0.2504,
+        "detailRaw": 0.4743,
+        "detailAdded": 0.4479,
+        "bands": 0
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 261,
+          "y": 16,
+          "w": 1020,
+          "h": 46
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 1536,
+          "h": 62
+        }
+      }
+    },
+    {
+      "id": "candidate-background",
+      "x": 0,
+      "y": 0.5488,
+      "w": 1,
+      "h": 0.293,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.5343,
+        "structure": 0.708,
+        "color": 0.655,
+        "colorIntersection": 0.4477,
+        "paletteMatch": 0.7666,
+        "detail": 0.2211,
+        "detailRaw": 0.393,
+        "detailAdded": 0.3438,
+        "bands": 0.45
+      },
+      "verdict": "drift",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 1418,
+          "h": 300
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 1536,
+          "h": 300
+        }
+      }
+    },
+    {
+      "id": "candidate-title",
+      "x": 0.0638,
+      "y": 0.5742,
+      "w": 0.2533,
+      "h": 0.1387,
+      "kind": "text",
+      "score": {
+        "overall": 0.3931,
+        "structure": 0.2775,
+        "color": 0.8234,
+        "colorIntersection": 0.6691,
+        "paletteMatch": 0.9065,
+        "detail": 0.0865,
+        "detailRaw": 0.1803,
+        "detailAdded": 0.1875,
+        "bands": 0.3556
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 7,
+          "w": 372,
+          "h": 132
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 389,
+          "h": 142
+        }
+      }
+    },
+    {
+      "id": "candidate-intro",
+      "x": 0.0638,
+      "y": 0.7227,
+      "w": 0.332,
+      "h": 0.0313,
+      "kind": "text",
+      "score": {
+        "overall": 0.52,
+        "structure": 0.4681,
+        "color": 0.8573,
+        "colorIntersection": 0.7721,
+        "paletteMatch": 0.9032,
+        "detail": 0.1886,
+        "detailRaw": 0.3501,
+        "detailAdded": 0.3229,
+        "bands": 0.4333
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 2,
+          "y": 13,
+          "w": 369,
+          "h": 22
+        },
+        "build": {
+          "x": 2,
+          "y": 0,
+          "w": 296,
+          "h": 48
+        }
+      }
+    },
+    {
+      "id": "candidate-action",
+      "x": 0.0638,
+      "y": 0.7705,
+      "w": 0.1803,
+      "h": 0.0508,
+      "kind": "control",
+      "score": {
+        "overall": 0.3349,
+        "structure": 0.4881,
+        "color": 0.0564,
+        "colorIntersection": 0.0072,
+        "paletteMatch": 0.0829,
+        "detail": 0.4777,
+        "detailRaw": 0.5871,
+        "detailAdded": 0.2188,
+        "bands": 0.6
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 277,
+          "h": 52
+        },
+        "build": {
+          "x": 1,
+          "y": 19,
+          "w": 274,
+          "h": 23
+        }
+      }
+    },
+    {
+      "id": "instagram-action",
+      "x": 0.2604,
+      "y": 0.7705,
+      "w": 0.1953,
+      "h": 0.0508,
+      "kind": "control",
+      "score": {
+        "overall": 0.4911,
+        "structure": 0.4766,
+        "color": 0.7831,
+        "colorIntersection": 0.6126,
+        "paletteMatch": 0.8749,
+        "detail": 0.0127,
+        "detailRaw": 0.044,
+        "detailAdded": 0.0625,
+        "bands": 0.4667
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 1,
+          "w": 300,
+          "h": 49
+        },
+        "build": {
+          "x": 0,
+          "y": 19,
+          "w": 54,
+          "h": 22
+        }
+      }
+    },
+    {
+      "id": "portrait",
+      "x": 0.5143,
+      "y": 0.5566,
+      "w": 0.306,
+      "h": 0.2852,
+      "kind": "image",
+      "score": {
+        "overall": 0.373,
+        "structure": 0.5176,
+        "color": 0.465,
+        "colorIntersection": 0.1465,
+        "paletteMatch": 0.6365,
+        "detail": 0.2413,
+        "detailRaw": 0.4079,
+        "detailAdded": 0.3333,
+        "bands": 0.6
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 159,
+          "y": 0,
+          "w": 311,
+          "h": 292
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 470,
+          "h": 292
+        }
+      }
+    },
+    {
+      "id": "candidate-motto",
+      "x": 0.804,
+      "y": 0.6367,
+      "w": 0.151,
+      "h": 0.0762,
+      "kind": "text",
+      "score": {
+        "overall": 0.4833,
+        "structure": 0.6232,
+        "color": 0.5268,
+        "colorIntersection": 0.2456,
+        "paletteMatch": 0.6782,
+        "detail": 0,
+        "detailRaw": 0,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 3,
+          "y": 9,
+          "w": 180,
+          "h": 66
+        },
+        "build": null
+      }
+    },
+    {
+      "id": "intro-ground",
+      "x": 0,
+      "y": 0.8428,
+      "w": 1,
+      "h": 0.1572,
+      "kind": "chrome",
+      "score": {
+        "overall": 0.3762,
+        "structure": 0.3016,
+        "color": 0.675,
+        "colorIntersection": 0.4221,
+        "paletteMatch": 0.8112,
+        "detail": 0.1286,
+        "detailRaw": 0.2328,
+        "detailAdded": 0.2083,
+        "bands": 0.465
+      },
+      "verdict": "contradicted",
+      "inkBox": {
+        "comp": {
+          "x": 100,
+          "y": 25,
+          "w": 1350,
+          "h": 136
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 1536,
+          "h": 161
+        }
+      }
+    },
+    {
+      "id": "intro-title",
+      "x": 0.0638,
+      "y": 0.916,
+      "w": 0.2917,
+      "h": 0.0537,
+      "kind": "text",
+      "score": {
+        "overall": 0.403,
+        "structure": 0.2325,
+        "color": 0.8489,
+        "colorIntersection": 0.7087,
+        "paletteMatch": 0.9243,
+        "detail": 0.1303,
+        "detailRaw": 0.1355,
+        "detailAdded": 0.0104,
+        "bands": 0.55
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 2,
+          "y": 3,
+          "w": 422,
+          "h": 52
+        },
+        "build": {
+          "x": 0,
+          "y": 0,
+          "w": 448,
+          "h": 20
+        }
+      }
+    },
+    {
+      "id": "intro-description",
+      "x": 0.0638,
+      "y": 0.9785,
+      "w": 0.3809,
+      "h": 0.0215,
+      "kind": "text",
+      "score": {
+        "overall": 0.7198,
+        "structure": 0.8893,
+        "color": 0.9126,
+        "colorIntersection": 0.8606,
+        "paletteMatch": 0.9406,
+        "detail": 0.0466,
+        "detailRaw": 0.0466,
+        "detailAdded": 0,
+        "bands": 0.4
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 3,
+          "y": 0,
+          "w": 494,
+          "h": 35
+        },
+        "build": {
+          "x": 2,
+          "y": 28,
+          "w": 309,
+          "h": 7
+        }
+      }
+    },
+    {
+      "id": "intro-coast",
+      "x": 0.474,
+      "y": 0.8672,
+      "w": 0.4707,
+      "h": 0.1328,
+      "kind": "image",
+      "score": {
+        "overall": 0.1782,
+        "structure": 0.2086,
+        "color": 0.2173,
+        "colorIntersection": 0.0333,
+        "paletteMatch": 0.3164,
+        "detail": 0.1466,
+        "detailRaw": 0.1934,
+        "detailAdded": 0.0938,
+        "bands": 0.1857
+      },
+      "verdict": "missing",
+      "inkBox": {
+        "comp": {
+          "x": 0,
+          "y": 0,
+          "w": 723,
+          "h": 136
+        },
+        "build": {
+          "x": 0,
+          "y": 19,
+          "w": 723,
+          "h": 117
+        }
+      }
+    }
+  ],
+  "files": {
+    "sideBySide": ".impeccable/review/diff/desktop/side-by-side.png",
+    "heatmap": ".impeccable/review/diff/desktop/heatmap.png",
+    "regionFiles": [
+      ".impeccable/review/diff/desktop/regions/header.png",
+      ".impeccable/review/diff/desktop/regions/brand.png",
+      ".impeccable/review/diff/desktop/regions/navigation.png",
+      ".impeccable/review/diff/desktop/regions/coast.png",
+      ".impeccable/review/diff/desktop/regions/headline.png",
+      ".impeccable/review/diff/desktop/regions/tagline.png",
+      ".impeccable/review/diff/desktop/regions/project-action.png",
+      ".impeccable/review/diff/desktop/regions/map-action.png",
+      ".impeccable/review/diff/desktop/regions/chapter-nav.png",
+      ".impeccable/review/diff/desktop/regions/candidate-background.png",
+      ".impeccable/review/diff/desktop/regions/candidate-title.png",
+      ".impeccable/review/diff/desktop/regions/candidate-intro.png",
+      ".impeccable/review/diff/desktop/regions/candidate-action.png",
+      ".impeccable/review/diff/desktop/regions/instagram-action.png",
+      ".impeccable/review/diff/desktop/regions/portrait.png",
+      ".impeccable/review/diff/desktop/regions/candidate-motto.png",
+      ".impeccable/review/diff/desktop/regions/intro-ground.png",
+      ".impeccable/review/diff/desktop/regions/intro-title.png",
+      ".impeccable/review/diff/desktop/regions/intro-description.png",
+      ".impeccable/review/diff/desktop/regions/intro-coast.png"
+    ]
+  }
+}
